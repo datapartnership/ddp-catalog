@@ -84,7 +84,7 @@
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false,
-    "forks_count": 82,
+    "forks_count": 83,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -111,7 +111,7 @@
       "stata-command"
     ],
     "visibility": "public",
-    "forks": 82,
+    "forks": 83,
     "open_issues": 78,
     "watchers": 237,
     "default_branch": "main",
@@ -124,7 +124,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 97519811,
@@ -194,7 +195,7 @@
     "releases_url": "https://api.github.com/repos/worldbank/stata/releases{/id}",
     "deployments_url": "https://api.github.com/repos/worldbank/stata/deployments",
     "created_at": "2017-07-17T20:35:08Z",
-    "updated_at": "2026-03-07T03:49:41Z",
+    "updated_at": "2026-03-09T03:11:52Z",
     "pushed_at": "2026-02-26T07:26:53Z",
     "git_url": "git://github.com/worldbank/stata.git",
     "ssh_url": "git@github.com:worldbank/stata.git",
@@ -202,8 +203,8 @@
     "svn_url": "https://github.com/worldbank/stata",
     "homepage": "https://worldbank.github.io/stata/",
     "size": 13737,
-    "stargazers_count": 292,
-    "watchers_count": 292,
+    "stargazers_count": 293,
+    "watchers_count": 293,
     "language": null,
     "has_issues": true,
     "has_projects": true,
@@ -235,7 +236,7 @@
     "visibility": "public",
     "forks": 113,
     "open_issues": 1,
-    "watchers": 292,
+    "watchers": 293,
     "default_branch": "master",
     "permissions": {
       "admin": false,
@@ -246,7 +247,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 121767990,
@@ -368,7 +370,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 137778139,
@@ -487,7 +490,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 232436540,
@@ -606,7 +610,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 284046229,
@@ -730,7 +735,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 284046304,
@@ -851,7 +857,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 494086515,
@@ -973,7 +980,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 681560524,
@@ -1095,7 +1103,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 710225696,
@@ -1226,7 +1235,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 782629603,
@@ -1350,7 +1360,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 863686456,
@@ -1473,7 +1484,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 923084688,
@@ -1596,7 +1608,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 935859668,
@@ -1719,7 +1732,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 982874190,
@@ -1789,16 +1803,16 @@
     "releases_url": "https://api.github.com/repos/worldbank/metadata-editor/releases{/id}",
     "deployments_url": "https://api.github.com/repos/worldbank/metadata-editor/deployments",
     "created_at": "2025-05-13T14:31:03Z",
-    "updated_at": "2026-03-03T18:14:47Z",
-    "pushed_at": "2026-03-05T17:40:14Z",
+    "updated_at": "2026-03-09T02:44:35Z",
+    "pushed_at": "2026-03-09T15:57:17Z",
     "git_url": "git://github.com/worldbank/metadata-editor.git",
     "ssh_url": "git@github.com:worldbank/metadata-editor.git",
     "clone_url": "https://github.com/worldbank/metadata-editor.git",
     "svn_url": "https://github.com/worldbank/metadata-editor",
     "homepage": "",
-    "size": 81889,
-    "stargazers_count": 266,
-    "watchers_count": 266,
+    "size": 81971,
+    "stargazers_count": 265,
+    "watchers_count": 265,
     "language": "PHP",
     "has_issues": true,
     "has_projects": true,
@@ -1830,7 +1844,7 @@
     "visibility": "public",
     "forks": 17,
     "open_issues": 20,
-    "watchers": 266,
+    "watchers": 265,
     "default_branch": "main",
     "permissions": {
       "admin": false,
@@ -1841,7 +1855,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 982875779,
@@ -1963,7 +1978,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 987235719,
@@ -2085,7 +2101,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 1029358483,
@@ -2207,7 +2224,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-01T00:00:00.000Z"
   },
   {
     "id": 1081445570,
@@ -2333,7 +2351,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-05T00:00:00.000Z"
   },
   {
     "id": 1087338945,
@@ -2459,7 +2478,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2025-12-03T00:00:00.000Z"
   },
   {
     "id": 1109479374,
@@ -2585,7 +2605,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2026-02-17T00:00:00.000Z"
   },
   {
     "id": 1116550867,
@@ -2712,7 +2733,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2026-03-06T00:00:00.000Z"
   },
   {
     "id": 1121251978,
@@ -2837,7 +2859,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2026-02-09T00:00:00.000Z"
   },
   {
     "id": 1144537021,
@@ -2907,14 +2930,14 @@
     "releases_url": "https://api.github.com/repos/worldbank/oss-catalog/releases{/id}",
     "deployments_url": "https://api.github.com/repos/worldbank/oss-catalog/deployments",
     "created_at": "2026-01-28T19:20:38Z",
-    "updated_at": "2026-03-05T21:01:59Z",
-    "pushed_at": "2026-03-05T21:01:55Z",
+    "updated_at": "2026-03-08T00:41:35Z",
+    "pushed_at": "2026-03-08T00:41:32Z",
     "git_url": "git://github.com/worldbank/oss-catalog.git",
     "ssh_url": "git@github.com:worldbank/oss-catalog.git",
     "clone_url": "https://github.com/worldbank/oss-catalog.git",
     "svn_url": "https://github.com/worldbank/oss-catalog",
     "homepage": "https://opensource.worldbank.org/",
-    "size": 16920,
+    "size": 16924,
     "stargazers_count": 1,
     "watchers_count": 1,
     "language": "TypeScript",
@@ -2959,7 +2982,8 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2026-01-28T00:00:00.000Z"
   },
   {
     "id": 1146047746,
@@ -3088,6 +3112,7 @@
     },
     "custom_properties": {
       "catalog": "true"
-    }
+    },
+    "catalogAddedDate": "2026-02-09T00:00:00.000Z"
   }
 ]

@@ -7,7 +7,7 @@ import { getAssetPath } from "./utils/paths";
 import Link from "next/link";
 
 export default function NewPage() {
-  const [recentProjects, setRecentProjects] = useState<{ name: string; html_url: string; description?: string; created_at?: string }[]>([]);
+  const [recentProjects, setRecentProjects] = useState<{ name: string; html_url: string; description?: string; catalogAddedDate?: string }[]>([]);
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -26,16 +26,24 @@ export default function NewPage() {
   useEffect(() => {
   fetch(`${getAssetPath('/repos.json')}?v=${Date.now()}`)
       .then(res => res.json())
-      .then((data: { created_at?: string; name?: string; html_url?: string; description?: string }[]) => {
+      .then((data: { catalogAddedDate?: string; created_at?: string; name?: string; html_url?: string; description?: string }[]) => {
         const sorted = data
-          .filter((repo) => repo.created_at && repo.name && repo.html_url)
-          .sort((a, b) => new Date(b.created_at!).getTime() - new Date(a.created_at!).getTime())
+          .filter((repo) => repo.catalogAddedDate && repo.name && repo.html_url)
+          .sort((a, b) => {
+            // Sort by catalogAddedDate first (newest first)
+            const dateDiff = new Date(b.catalogAddedDate!).getTime() - new Date(a.catalogAddedDate!).getTime();
+            if (dateDiff !== 0) return dateDiff;
+            // If catalogAddedDate is the same, use created_at as tiebreaker (newest first)
+            const aCreated = a.created_at ? new Date(a.created_at).getTime() : 0;
+            const bCreated = b.created_at ? new Date(b.created_at).getTime() : 0;
+            return bCreated - aCreated;
+          })
           .slice(0, 3)
           .map((repo) => ({
             name: repo.name!,
             html_url: repo.html_url!,
             description: typeof repo.description === 'string' ? repo.description : '',
-            created_at: repo.created_at
+            catalogAddedDate: repo.catalogAddedDate
           }));
         setRecentProjects(sorted);
       });
@@ -193,7 +201,7 @@ return (
                     {repo.description ? repo.description : 'No description provided.'}
                   </div>
                   <div style={{ color: '#888', fontSize: '0.95rem' }}>
-                    Published: {repo.created_at ? new Date(repo.created_at).toLocaleDateString() : 'Unknown'}
+                    Published: {repo.catalogAddedDate ? new Date(repo.catalogAddedDate).toLocaleDateString() : 'Unknown'}
                   </div>
                 </li>
               ))

@@ -19,6 +19,7 @@ interface Repo {
   homepage?: string;
   created_at?: string;
   updated_at?: string;
+  catalogAddedDate?: string;
 }
 
 export default function CatalogNewPage() {
@@ -59,10 +60,15 @@ export default function CatalogNewPage() {
       if (sort === "stars") return b.stargazers_count - a.stargazers_count;
       if (sort === "forks") return b.forks_count - a.forks_count;
       if (sort === "created") {
-        // Sort by created_at descending (newest first)
-        const aDate = a.created_at ? new Date(a.created_at).getTime() : 0;
-        const bDate = b.created_at ? new Date(b.created_at).getTime() : 0;
-        return bDate - aDate;
+        // Sort by catalogAddedDate descending (newest first)
+        const aCatalogDate = a.catalogAddedDate ? new Date(a.catalogAddedDate).getTime() : 0;
+        const bCatalogDate = b.catalogAddedDate ? new Date(b.catalogAddedDate).getTime() : 0;
+        const dateDiff = bCatalogDate - aCatalogDate;
+        if (dateDiff !== 0) return dateDiff;
+        // If catalogAddedDate is the same, use created_at as tiebreaker (newest first)
+        const aCreated = a.created_at ? new Date(a.created_at).getTime() : 0;
+        const bCreated = b.created_at ? new Date(b.created_at).getTime() : 0;
+        return bCreated - aCreated;
       }
       if (sort === "updated") {
         // Sort by updated_at descending (most recently updated first)
@@ -305,11 +311,11 @@ export default function CatalogNewPage() {
                       { value: "name", label: "Name" },
                       { value: "stars", label: "Stars" },
                       { value: "forks", label: "Forks" },
-                      { value: "created", label: "Created Date" },
+                      { value: "created", label: "Published Date" },
                       { value: "updated", label: "Last Updated" }
                     ]}
                     value={(() => {
-                      if (sort === "created") return { value: "created", label: "Created Date" };
+                      if (sort === "created") return { value: "created", label: "Published Date" };
                       if (sort === "updated") return { value: "updated", label: "Last Updated" };
                       if (sort === "stars") return { value: "stars", label: "Stars" };
                       if (sort === "forks") return { value: "forks", label: "Forks" };

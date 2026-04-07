@@ -9,7 +9,7 @@ export default function Header() {
   return (
   <header className="site-header">
   <Link href="/" className="site-header-logo">
-  <img src={getAssetPath("/ddp_img/Logos/Logo horizontal/Partnership_logo_text_white.png")} alt="Development Data Partnership" width="220" height="40" style={{ width: "220px", height: "auto", minHeight: "32px", display: "inline-block" }} />
+  <img src={getAssetPath("/ddp_img/logo-horizontal-white.png")} alt="Development Data Partnership" width="220" height="40" style={{ width: "220px", height: "auto", minHeight: "32px", display: "inline-block" }} />
   <span className="site-header-divider"></span>
   <h1 className="site-header-title" style={{ fontFamily: "'Asap Condensed', sans-serif" }}>Open Source</h1>
       </Link>

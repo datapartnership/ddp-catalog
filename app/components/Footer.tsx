@@ -30,7 +30,7 @@ export default function Footer() {
         onMouseLeave={() => setShowBar(false)}
       >
   <div className="site-footer-logo">
-          <img src={getAssetPath("/ddp_img/Logos/Logo horizontal/Partnership_logo_text_white.png")} alt="Development Data Partnership" width="180" height="36" className="site-footer-img" />
+          <img src={getAssetPath("/ddp_img/logo-horizontal-white.png")} alt="Development Data Partnership" width="180" height="36" className="site-footer-img" />
           <span className="site-footer-agencies">
             <a href="https://www.worldbank.org/en/who-we-are/ibrd" target="_blank" rel="noopener noreferrer" className="site-footer-link footer-agencies">IBRD</a>&nbsp;&nbsp;&nbsp;
             <a href="https://ida.worldbank.org/" target="_blank" rel="noopener noreferrer" className="site-footer-link footer-agencies">IDA</a>&nbsp;&nbsp;&nbsp;

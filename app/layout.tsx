@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
+import "./ddp.css";
 import FaviconLink from "./components/FaviconLink";
 
 export const metadata: Metadata = {

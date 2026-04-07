@@ -36,21 +36,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ repo, topic, setTopic }) => {
         rel="noopener noreferrer"
   className="site-card-title"
         style={{
-          color: "#1976d2",
+          color: "#001E60",
           fontWeight: 700,
-          fontSize: "1.25rem",
-          letterSpacing: "-0.5px",
+          fontSize: "1.1rem",
+          fontFamily: "'Asap Condensed', sans-serif",
+          letterSpacing: "0px",
           textDecoration: "none",
           transition: "color 0.2s",
           display: "inline-block",
           marginBottom: "0.5rem"
         }}
-        onMouseOver={e => (e.currentTarget.style.color = "#0d47a1")}
-        onMouseOut={e => (e.currentTarget.style.color = "#1976d2")}
+        onMouseOver={e => (e.currentTarget.style.color = "#F7951D")}
+        onMouseOut={e => (e.currentTarget.style.color = "#001E60")}
       >
         {repo.name}
       </a>
-  <p className="site-card-desc" style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' }}>
+  <p className="site-card-desc" style={{ fontFamily: "'Open Sans', sans-serif" }}>
         {repo.description
           ? repo.description.length > 150
             ? repo.description.slice(0, 147) + "..."

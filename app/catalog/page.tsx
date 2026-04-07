@@ -96,11 +96,11 @@ export default function CatalogNewPage() {
   return (
     <div
       style={{
-        fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+        fontFamily: "'Open Sans', sans-serif",
         minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
-        background: "linear-gradient(135deg, #f5f7fa 0%, #e3eaf2 100%)",
+        background: "#f8f9fb",
       }}
     >
       <Header />
@@ -110,23 +110,23 @@ export default function CatalogNewPage() {
           <div className="catalog-hero-content">
             <h2
               style={{
-                fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-                fontSize: '2rem',
-                fontWeight: 600,
-                color: '#15353F',
+                fontFamily: "'Asap Condensed', sans-serif",
+                fontSize: '2.25rem',
+                fontWeight: 700,
+                color: '#fff',
                 margin: 0,
                 marginBottom: '0.75rem',
-                letterSpacing: '-0.5px',
+                letterSpacing: '0px',
                 textAlign: 'left'
               }}
             >
-              Explore World Bank Open Source Code
+              Explore Development Data Partnership Source Code
             </h2>
             <p
               style={{
-                fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+                fontFamily: "'Open Sans', sans-serif",
                 fontSize: '1rem',
-                color: '#444',
+                color: 'rgba(255,255,255,0.85)',
                 maxWidth: 700,
                 marginBottom: '1.25rem',
                 fontWeight: 400,
@@ -170,7 +170,7 @@ export default function CatalogNewPage() {
                     control: (base) => ({ ...base, borderRadius: 8, borderColor: '#d0d7de', fontSize: '1rem', background: '#f7fafd', color: '#222', boxShadow: 'none', minHeight: 44, height: 44, paddingLeft: 8, width: 220 }),
                     menuPortal: (base) => ({ ...base, zIndex: 9999 }),
                     singleValue: (base) => ({ ...base, color: '#222', paddingLeft: 4 }),
-                    option: (base, state) => ({ ...base, color: '#222', backgroundColor: state.isFocused ? '#e3eaf2' : '#fff' }),
+                    option: (base, state) => ({ ...base, color: '#222', backgroundColor: state.isFocused ? '#eef0f4' : '#fff' }),
                     placeholder: (base) => ({ ...base, paddingLeft: 4 })
                   }}
                 />
@@ -190,7 +190,7 @@ export default function CatalogNewPage() {
                     control: (base) => ({ ...base, borderRadius: 8, borderColor: '#d0d7de', fontSize: '1rem', background: '#f7fafd', color: '#222', boxShadow: 'none', minHeight: 44, height: 44, paddingLeft: 8, width: 220 }),
                     menuPortal: (base) => ({ ...base, zIndex: 9999 }),
                     singleValue: (base) => ({ ...base, color: '#222', paddingLeft: 4 }),
-                    option: (base, state) => ({ ...base, color: '#222', backgroundColor: state.isFocused ? '#e3eaf2' : '#fff' }),
+                    option: (base, state) => ({ ...base, color: '#222', backgroundColor: state.isFocused ? '#eef0f4' : '#fff' }),
                     placeholder: (base) => ({ ...base, paddingLeft: 4 })
                   }}
                 />
@@ -215,7 +215,7 @@ export default function CatalogNewPage() {
         <section className="catalog-main-section"
         >
           {loading && (
-            <p style={{ fontSize: "1.1rem", color: "#15353F", fontWeight: 500 }}>
+            <p style={{ fontSize: "1.1rem", color: "#001E60", fontWeight: 500 }}>
               Loading catalog...
             </p>
           )}
@@ -229,7 +229,7 @@ export default function CatalogNewPage() {
                 <span
                   style={{
                     fontSize: "1.15rem",
-                    color: "#15353F",
+                    color: "#001E60",
                     fontWeight: 600,
                     letterSpacing: "-0.5px",
                     minWidth: 210,
@@ -283,7 +283,7 @@ export default function CatalogNewPage() {
                                   onClick={e => { e.preventDefault(); if (typeof p === 'number') setPage(p); }}
                                   style={{
                                     fontWeight: p === page ? 700 : 400,
-                                    background: p === page ? "#e3eaf2" : undefined,
+                                    background: p === page ? "#eef0f4" : undefined,
                                     pointerEvents: p === page ? "none" : "auto",
                                     opacity: p === page ? 0.7 : 1
                                   }}
@@ -302,7 +302,7 @@ export default function CatalogNewPage() {
                   )}
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", justifyContent: "flex-end" }}>
-                  <span style={{ fontSize: "1rem", color: "#15353F", fontWeight: 500 }}>Sort by:</span>
+                  <span style={{ fontSize: "1rem", color: "#001E60", fontWeight: 500 }}>Sort by:</span>
                   <Select
                     instanceId="sort-select"
                     inputId="sort"
@@ -340,7 +340,7 @@ export default function CatalogNewPage() {
                       option: (base, state) => ({
                         ...base,
                         color: "#222",
-                        backgroundColor: state.isFocused ? "#e3eaf2" : "#fff"
+                        backgroundColor: state.isFocused ? "#eef0f4" : "#fff"
                       })
                     }}
                     placeholder="Sort By..."
@@ -395,7 +395,7 @@ export default function CatalogNewPage() {
                                 onClick={e => { e.preventDefault(); if (typeof p === 'number') setPage(p); }}
                                 style={{
                                   fontWeight: p === page ? 700 : 400,
-                                  background: p === page ? "#e3eaf2" : undefined,
+                                  background: p === page ? "#eef0f4" : undefined,
                                   pointerEvents: p === page ? "none" : "auto",
                                   opacity: p === page ? 0.7 : 1
                                 }}

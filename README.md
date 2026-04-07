@@ -1,8 +1,6 @@
-# Open Source Code Catalog
+# DDP Source Code Catalog
 
-A modern web app for browsing, searching, and discovering open source projects in your established GitHub organization. The project is built with Next.js and React. The catalog features summary project cards for each repository, organization statistics, filtering, search and more.
-
-<img width="2560" height="1401" alt="image" src="https://github.com/user-attachments/assets/a8191ca3-6127-490b-9b4b-a5e7fef39be5" />
+A modern web app for browsing, searching, and discovering DDP projects in your established GitHub organization. The project is built with Next.js and React. The catalog features summary project cards for each repository, organization statistics, filtering, search and more.
 
 ## 1. Getting Started
 

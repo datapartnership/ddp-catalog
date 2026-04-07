@@ -39,7 +39,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ repo, topic, setTopic }) => {
           color: "#001E60",
           fontWeight: 700,
           fontSize: "1.1rem",
-          fontFamily: "'Asap Condensed', sans-serif",
+          fontFamily: "var(--font-asap-condensed), sans-serif",
           letterSpacing: "0px",
           textDecoration: "none",
           transition: "color 0.2s",
@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ repo, topic, setTopic }) => {
       >
         {repo.name}
       </a>
-  <p className="site-card-desc" style={{ fontFamily: "'Open Sans', sans-serif" }}>
+  <p className="site-card-desc" style={{ fontFamily: "var(--font-open-sans), sans-serif" }}>
         {repo.description
           ? repo.description.length > 150
             ? repo.description.slice(0, 147) + "..."

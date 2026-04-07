@@ -1,9 +1,9 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 , .h1, .h2, .h3 , .h4, .h5 , .h6 {
-    font-family: 'Asap Condensed', sans-serif;
+    font-family: var(--font-asap-condensed), sans-serif;
 }
 
 footer {
@@ -366,14 +366,14 @@ a.btn-primary {
     }
 
     body {
-      font-family: 'Roboto', sans-serif;
+      font-family: var(--font-open-sans), sans-serif;
       color: var(--gray-800);
       background: var(--gray-50);
       line-height: 1.6;
     }
 
     h1,h2,h3,h4,h5,h6 {
-      font-family: 'Asap Condensed', sans-serif;
+      font-family: var(--font-asap-condensed), sans-serif;
       line-height: 1.2;
     }
 
@@ -395,7 +395,7 @@ a.btn-primary {
       height: 64px;
     }
     .site-nav .logo {
-      font-family: 'Asap Condensed', sans-serif;
+      font-family: var(--font-asap-condensed), sans-serif;
       font-weight: 700;
       font-size: 1.25rem;
       color: #fff;
@@ -409,7 +409,7 @@ a.btn-primary {
     .nav-links a {
       color: rgba(255,255,255,0.8);
       text-decoration: none;
-      font-family: 'Asap Condensed', sans-serif;
+      font-family: var(--font-asap-condensed), sans-serif;
       font-size: 1rem;
       padding: 0.5rem 1rem;
       border-radius: var(--radius);
@@ -472,7 +472,7 @@ a.btn-primary {
       margin-top: 2rem;
     }
     .hero-stat .num {
-      font-family: 'Asap Condensed', sans-serif;
+      font-family: var(--font-asap-condensed), sans-serif;
       font-size: 2rem;
       font-weight: 700;
       color: var(--orange);
@@ -500,7 +500,7 @@ a.btn-primary {
       padding: 0 2rem;
     }
     .tab-btn {
-      font-family: 'Asap Condensed', sans-serif;
+      font-family: var(--font-asap-condensed), sans-serif;
       font-size: 1rem;
       font-weight: 500;
       padding: 1rem 1.5rem;
@@ -548,7 +548,7 @@ a.btn-primary {
       gap: 0.35rem;
     }
     .filter-group label {
-      font-family: 'Asap Condensed', sans-serif;
+      font-family: var(--font-asap-condensed), sans-serif;
       font-weight: 600;
       font-size: 0.75rem;
       color: var(--gray-400);
@@ -560,7 +560,7 @@ a.btn-primary {
       border-radius: var(--radius);
       padding: 0.55rem 0.75rem;
       font-size: 0.9rem;
-      font-family: 'Roboto', sans-serif;
+      font-family: var(--font-open-sans), sans-serif;
       color: var(--gray-600);
       background: var(--gray-50);
       transition: var(--transition);
@@ -604,7 +604,7 @@ a.btn-primary {
       border-radius: var(--radius);
       padding: 0.55rem 1.25rem;
       font-size: 0.85rem;
-      font-family: 'Roboto', sans-serif;
+      font-family: var(--font-open-sans), sans-serif;
       color: var(--gray-400);
       cursor: pointer;
       transition: var(--transition);
@@ -683,7 +683,7 @@ a.btn-primary {
     }
     .tag {
       font-size: 0.7rem;
-      font-family: 'Asap Condensed', sans-serif;
+      font-family: var(--font-asap-condensed), sans-serif;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -738,7 +738,7 @@ a.btn-primary {
     }
     .collection-table th {
       text-align: left;
-      font-family: 'Asap Condensed', sans-serif;
+      font-family: var(--font-asap-condensed), sans-serif;
       font-weight: 600;
       font-size: 0.8rem;
       text-transform: uppercase;
@@ -838,7 +838,7 @@ a.btn-primary {
     }
     .param-table th {
       text-align: left;
-      font-family: 'Asap Condensed', sans-serif;
+      font-family: var(--font-asap-condensed), sans-serif;
       font-weight: 600;
       font-size: 0.75rem;
       text-transform: uppercase;

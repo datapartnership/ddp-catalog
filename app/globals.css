@@ -1,53 +1,7 @@
 @import "tailwindcss";
 
-/* ── DDP LOCAL FONTS ── */
-@font-face {
-  font-family: 'Asap Condensed';
-  src: url('/ddp_img/Fonts/AsapCondensed-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Asap Condensed';
-  src: url('/ddp_img/Fonts/AsapCondensed-Medium.ttf') format('truetype');
-  font-weight: 500 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('/ddp_img/Fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('/ddp_img/Fonts/Open_Sans/OpenSans-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('/ddp_img/Fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('/ddp_img/Fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+/* Fonts are loaded via next/font/local in layout.tsx and applied
+   through CSS variables --font-open-sans and --font-asap-condensed */
 
 body {
   overflow-x: hidden;
@@ -88,7 +42,7 @@ html, body {
 }
 
 body {
-  font-family: 'Open Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: 'Open Sans', var(--font-open-sans), sans-serif;
   background: #f8f9fb;
   min-height: 100vh;
   margin: 0;
@@ -155,7 +109,7 @@ body {
 }
 
 .site-header-title {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   font-size: 1.05rem;
   font-weight: 600;
   letter-spacing: -0.5px;
@@ -181,7 +135,7 @@ body {
 }
 
 .site-header-link {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   color: #fff;
   font-weight: 600;
   text-decoration: none;
@@ -254,7 +208,7 @@ body {
 
 /* Homepage styles */
 .homepage-root {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -276,7 +230,7 @@ body {
   border-bottom: 1px solid #d8dce5;
 }
 .hero-title {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: #001E60;
@@ -285,7 +239,7 @@ body {
   letter-spacing: -0.5px;
 }
 .hero-desc {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   font-size: 1rem;
   color: #444;
   max-width: 700px;
@@ -304,7 +258,7 @@ body {
   gap: 2.5rem;
 }
 .featured-title {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: #001E60;
@@ -355,7 +309,7 @@ section.hero {
 }
 
 h2 {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: #001E60;
@@ -365,7 +319,7 @@ h2 {
 }
 
 p {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   font-size: 1rem;
   color: #444;
   max-width: 700px;
@@ -382,7 +336,7 @@ p {
   background: #001545;
   color: rgba(255, 255, 255, 1);
   font-size: .9rem;
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   display: none;
   align-items: center;
   justify-content: flex-start;
@@ -445,14 +399,14 @@ p {
   display: block;
 }
 .site-footer-agencies {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   color: rgba(255,255,255,0.5);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
 }
 .site-footer-copyright {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   flex: 1;
   text-align: right;
   margin-right: 220px;
@@ -1057,7 +1011,7 @@ p {
   grid-template-columns: auto 1fr auto;
   gap: 1.5rem;
   align-items: center;
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
 }
 
 /* Mobile overrides for catalog */
@@ -1115,7 +1069,7 @@ p {
     justify-content: flex-start;
     width: 100%;
     max-width: 100%;
-    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: var(--font-open-sans), sans-serif;
     box-sizing: border-box;
   }
 

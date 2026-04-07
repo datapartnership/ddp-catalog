@@ -11,7 +11,7 @@ export default function Header() {
   <Link href="/" className="site-header-logo">
   <img src={getAssetPath("/ddp_img/logo-horizontal-white.png")} alt="Development Data Partnership" width="220" height="40" style={{ width: "220px", height: "auto", minHeight: "32px", display: "inline-block" }} />
   <span className="site-header-divider"></span>
-  <h1 className="site-header-title" style={{ fontFamily: "'Asap Condensed', sans-serif" }}>Open Source</h1>
+  <h1 className="site-header-title" style={{ fontFamily: "var(--font-asap-condensed), sans-serif" }}>Open Source</h1>
       </Link>
   <div className="site-header-nav site-header-nav-desktop">
   <Link href="/catalog" className="site-header-link">CODE CATALOG</Link>

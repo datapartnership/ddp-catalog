@@ -96,7 +96,7 @@ export default function CatalogNewPage() {
   return (
     <div
       style={{
-        fontFamily: "'Open Sans', sans-serif",
+        fontFamily: "var(--font-open-sans), sans-serif",
         minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
@@ -110,7 +110,7 @@ export default function CatalogNewPage() {
           <div className="catalog-hero-content">
             <h2
               style={{
-                fontFamily: "'Asap Condensed', sans-serif",
+                fontFamily: "var(--font-asap-condensed), sans-serif",
                 fontSize: '2.25rem',
                 fontWeight: 700,
                 color: '#fff',
@@ -124,7 +124,7 @@ export default function CatalogNewPage() {
             </h2>
             <p
               style={{
-                fontFamily: "'Open Sans', sans-serif",
+                fontFamily: "var(--font-open-sans), sans-serif",
                 fontSize: '1rem',
                 color: 'rgba(255,255,255,0.85)',
                 maxWidth: 700,

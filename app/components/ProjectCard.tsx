@@ -38,7 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ repo, topic, setTopic }) => {
         style={{
           color: "#001E60",
           fontWeight: 700,
-          fontSize: "1.1rem",
+          fontSize: "1.5rem",
           fontFamily: "var(--font-asap-condensed), sans-serif",
           letterSpacing: "0px",
           textDecoration: "none",

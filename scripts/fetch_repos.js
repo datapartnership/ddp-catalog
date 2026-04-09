@@ -2,7 +2,7 @@ import fs from 'fs';
 import fetch from 'node-fetch';
 
 // Organizations to fetch repositories from
-const ORGANIZATIONS = ['datapartnership'];
+const ORGANIZATIONS = ['datapartnership','worldbank'];
 
 async function fetchReposFromOrg(orgName) {
   let allRepos = [];
@@ -65,9 +65,16 @@ async function fetchAllRepos() {
   console.log(`\nTotal repos fetched from all organizations: ${allRepos.length}`);
   
   // Filter for repos with catalog=true custom property
+  // For worldbank org repos, also require the 'datapartnership' topic
   const catalogRepos = allRepos.filter(repo => {
-    return repo.custom_properties && 
+    const hasCatalogProperty = repo.custom_properties &&
            repo.custom_properties.catalog === "true";
+    if (!hasCatalogProperty) return false;
+
+    if (repo.owner && repo.owner.login === 'worldbank') {
+      return Array.isArray(repo.topics) && repo.topics.includes('datapartnership');
+    }
+    return true;
   });
   
   console.log(`Repos with catalog=true: ${catalogRepos.length}`);

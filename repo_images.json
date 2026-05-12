@@ -1,0 +1,542 @@
+[
+  {
+    "name": "datapartnership.github.io",
+    "description": ":pencil: Projects & News ",
+    "url": "https://github.com/datapartnership/datapartnership.github.io",
+    "image_path": "generated_images/datapartnership_github_io.png"
+  },
+  {
+    "name": "covid-19",
+    "description": "Partnership-curated notebooks to support COVID-19 response",
+    "url": "https://github.com/datapartnership/covid-19",
+    "image_path": "generated_images/covid-19.png"
+  },
+  {
+    "name": "welcome",
+    "description": ":star: Welcome to the Data Partnership",
+    "url": "https://github.com/datapartnership/welcome",
+    "image_path": "generated_images/welcome.png"
+  },
+  {
+    "name": "awesome-datapartnership",
+    "description": "A curated list of derivative works",
+    "url": "https://github.com/datapartnership/awesome-datapartnership",
+    "image_path": "generated_images/awesome-datapartnership.png"
+  },
+  {
+    "name": "hospital-accessibility",
+    "description": "Hospital Accessibility Analysis",
+    "url": "https://github.com/datapartnership/hospital-accessibility",
+    "image_path": "generated_images/hospital-accessibility.png"
+  },
+  {
+    "name": "covid19-indonesia-social-media-monitoring",
+    "description": "This project monitors public behavior and information trends related to COVID-19 in Indonesia using social media data (Instagram), Google Trends, survey data, mobility reports, and news data. It applies word embedding and LDA topic modelling to track evolving responses and generates dashboards and visualizations to support COVID-19 monitoring.",
+    "url": "https://github.com/datapartnership/covid19-indonesia-social-media-monitoring",
+    "image_path": "generated_images/covid19-indonesia-social-media-monitoring.png"
+  },
+  {
+    "name": "amazon-sagemaker-examples",
+    "description": "Example notebooks that show how to apply machine learning, deep learning and reinforcement learning in Amazon SageMaker",
+    "url": "https://github.com/datapartnership/amazon-sagemaker-examples",
+    "image_path": "generated_images/amazon-sagemaker-examples.png"
+  },
+  {
+    "name": "dime-data-handbook",
+    "description": "Development Research in Practice: The DIME Analytics Data Handbook. By Kristoffer Bj\u00e4rkefur, Lu\u00edza Cardoso de Andrade, Benjamin Daniels, and Maria Jones",
+    "url": "https://github.com/datapartnership/dime-data-handbook",
+    "image_path": "generated_images/dime-data-handbook.png"
+  },
+  {
+    "name": "do_more_with_twitter_data",
+    "description": "Tutorials for getting the most out of Twitter data.",
+    "url": "https://github.com/datapartnership/do_more_with_twitter_data",
+    "image_path": "generated_images/do_more_with_twitter_data.png"
+  },
+  {
+    "name": "covid19-agent-based-model",
+    "description": "This repository contains a Python implementation of an agent-based model for simulating COVID-19 transmission in Zimbabwe. It uses synthetic population data, mobility patterns from call-detail records, economic interaction patterns, and WASH and comorbidity risk data to model disease spread and evaluate policy scenarios.",
+    "url": "https://github.com/datapartnership/covid19-agent-based-model",
+    "image_path": "generated_images/covid19-agent-based-model.png"
+  },
+  {
+    "name": "covid-19-open-data",
+    "description": "Datasets of daily time-series data related to COVID-19 for over 20,000 distinct locations around the world.",
+    "url": "https://github.com/datapartnership/covid-19-open-data",
+    "image_path": "generated_images/covid-19-open-data.png"
+  },
+  {
+    "name": "search-tweets-python",
+    "description": "Python client for the Twitter search endpoints (v2/Labs/premium/enterprise). Now supports Twitter API v2 /recent and /all search endpoints.",
+    "url": "https://github.com/datapartnership/search-tweets-python",
+    "image_path": "generated_images/search-tweets-python.png"
+  },
+  {
+    "name": "google-api-python-client",
+    "description": "\ud83d\udc0d The official Python client library for Google's discovery based APIs.",
+    "url": "https://github.com/datapartnership/google-api-python-client",
+    "image_path": "generated_images/google-api-python-client.png"
+  },
+  {
+    "name": "fb-gender-survey-dashboard",
+    "description": "Interactive exploration of global results from the Facebook \"Survey on Gender Equality At Home",
+    "url": "https://github.com/datapartnership/fb-gender-survey-dashboard",
+    "image_path": "generated_images/fb-gender-survey-dashboard.png"
+  },
+  {
+    "name": "tomorrow-samples",
+    "description": "The official collection of handy scripts and samples to kickoff the work with the Tomorrow.io API",
+    "url": "https://github.com/datapartnership/tomorrow-samples",
+    "image_path": "generated_images/tomorrow-samples.png"
+  },
+  {
+    "name": "training-kit",
+    "description": "Open source cheat sheets for Git and GitHub",
+    "url": "https://github.com/datapartnership/training-kit",
+    "image_path": "generated_images/training-kit.png"
+  },
+  {
+    "name": "ookla-open-data",
+    "description": "Speedtest by Ookla Global Fixed and Mobile Network Performance Map Tiles",
+    "url": "https://github.com/datapartnership/ookla-open-data",
+    "image_path": "generated_images/ookla-open-data.png"
+  },
+  {
+    "name": "road-resilience-in-uttarakhand",
+    "description": "Predicting Precipitation-Induced Road Closures in Uttarakhand",
+    "url": "https://github.com/datapartnership/road-resilience-in-uttarakhand",
+    "image_path": "generated_images/road-resilience-in-uttarakhand.png"
+  },
+  {
+    "name": "awesome-satellite-imagery-datasets",
+    "description": "\ud83d\udef0\ufe0f List of satellite image training datasets with annotations for computer vision and deep learning",
+    "url": "https://github.com/datapartnership/awesome-satellite-imagery-datasets",
+    "image_path": "generated_images/awesome-satellite-imagery-datasets.png"
+  },
+  {
+    "name": "awesome-production-machine-learning",
+    "description": "A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning",
+    "url": "https://github.com/datapartnership/awesome-production-machine-learning",
+    "image_path": "generated_images/awesome-production-machine-learning.png"
+  },
+  {
+    "name": "awesome-artificial-intelligence-guidelines",
+    "description": "This repository aims to map the ecosystem of artificial intelligence guidelines, principles, codes of ethics, standards, regulation and beyond.",
+    "url": "https://github.com/datapartnership/awesome-artificial-intelligence-guidelines",
+    "image_path": "generated_images/awesome-artificial-intelligence-guidelines.png"
+  },
+  {
+    "name": "API-Code-Samples",
+    "description": "Get jumpstarted with aWhere's API platforms using these code samples. More languages and samples will be coming, feel free to fork and contribute!",
+    "url": "https://github.com/datapartnership/API-Code-Samples",
+    "image_path": "generated_images/API-Code-Samples.png"
+  },
+  {
+    "name": "tomorrow-postman",
+    "description": "The official Postman collection for the Tomorrow.io API",
+    "url": "https://github.com/datapartnership/tomorrow-postman",
+    "image_path": "generated_images/tomorrow-postman.png"
+  },
+  {
+    "name": "mobilkit",
+    "description": "A Python Toolkit for Urban Resilience and Disaster Risk Management Analytics using High Frequency Human Mobility Data",
+    "url": "https://github.com/datapartnership/mobilkit",
+    "image_path": "generated_images/mobilkit.png"
+  },
+  {
+    "name": "mena-social-media-lab",
+    "description": "MENA Social Media Lab",
+    "url": "https://github.com/datapartnership/mena-social-media-lab",
+    "image_path": "generated_images/mena-social-media-lab.png"
+  },
+  {
+    "name": "integrated-framework-for-road-safety",
+    "description": "Provides a road safety scan using machine learning to derive characteristics from street view images and predict road risk",
+    "url": "https://github.com/datapartnership/integrated-framework-for-road-safety",
+    "image_path": "generated_images/integrated-framework-for-road-safety.png"
+  },
+  {
+    "name": "Twitter-API-v2-sample-code",
+    "description": "Sample code for the Twitter API v2 endpoints",
+    "url": "https://github.com/datapartnership/Twitter-API-v2-sample-code",
+    "image_path": "generated_images/Twitter-API-v2-sample-code.png"
+  },
+  {
+    "name": "IDB-IDB-Invest-Coronavirus-Impact-Dashboard",
+    "description": " Follow  the impact of COVID-19 outbreak in Latin America in real time",
+    "url": "https://github.com/datapartnership/IDB-IDB-Invest-Coronavirus-Impact-Dashboard",
+    "image_path": "generated_images/IDB-IDB-Invest-Coronavirus-Impact-Dashboard.png"
+  },
+  {
+    "name": "health-planning-in-philippines",
+    "description": "This project supports health system planning in the Philippines by analyzing the spatial distribution, accessibility, and connectivity of health facilities. Using geospatial methods and travel-time modelling, it maps access, identifies service gaps, and builds referral networks across levels of care to inform integrated, local healthcare planning.",
+    "url": "https://github.com/datapartnership/health-planning-in-philippines",
+    "image_path": "generated_images/health-planning-in-philippines.png"
+  },
+  {
+    "name": "city-growth-patterns-on-traffic-and-urban-mobility",
+    "description": "Use of Waze data to better understand mobility issues in Romania",
+    "url": "https://github.com/datapartnership/city-growth-patterns-on-traffic-and-urban-mobility",
+    "image_path": "generated_images/city-growth-patterns-on-traffic-and-urban-mobility.png"
+  },
+  {
+    "name": "covid-19-maharashtra",
+    "description": "This project analyzes societal and economic responses to COVID-19 policies in Maharashtra using high-frequency alternative data. It combines anonymized smartphone mobility data and satellite imagery to track changes in movement and industrial activity, assessing how populations and sectors respond to government restrictions during a crisis.",
+    "url": "https://github.com/datapartnership/covid-19-maharashtra",
+    "image_path": "generated_images/covid-19-maharashtra.png"
+  },
+  {
+    "name": "india-kerala-resilience",
+    "description": "Understanding the vulnerability of Kerala to Heatwaves",
+    "url": "https://github.com/datapartnership/india-kerala-resilience",
+    "image_path": "generated_images/india-kerala-resilience.png"
+  },
+  {
+    "name": "mapbox-sdk-py",
+    "description": "Python SDK for Mapbox APIs **DEVELOPMENT IS TEMPORARILY PAUSED, SEE CONTRIBUTING.md**",
+    "url": "https://github.com/datapartnership/mapbox-sdk-py",
+    "image_path": "generated_images/mapbox-sdk-py.png"
+  },
+  {
+    "name": "syria-economic-monitor",
+    "description": "This project uses alternative data, including remote sensing, to track economic activity in Syria in a data-scarce, conflict-affected context. It analyses port and trade activity, mobility patterns, internet connectivity, nighttime lights, vegetation conditions, and conflict events to monitor economic trends and support evidence-based policy.",
+    "url": "https://github.com/datapartnership/syria-economic-monitor",
+    "image_path": "generated_images/syria-economic-monitor.png"
+  },
+  {
+    "name": "heatwaves",
+    "description": "The Heatwaves Data Collaborative enables teams across sectors and  organizations to simultaneously focus on their areas of expertise",
+    "url": "https://github.com/datapartnership/heatwaves",
+    "image_path": "generated_images/heatwaves.png"
+  },
+  {
+    "name": "microsoft-authentication-library-for-python",
+    "description": "Microsoft Authentication Library (MSAL) for Python makes it easy to authenticate to Azure Active Directory. These documented APIs are stable https://msal-python.readthedocs.io. If you have questions but do not have a github account, ask your questions on Stackoverflow with tag \"msal\" + \"python\".",
+    "url": "https://github.com/datapartnership/microsoft-authentication-library-for-python",
+    "image_path": "generated_images/microsoft-authentication-library-for-python.png"
+  },
+  {
+    "name": "ms-identity-python-webapp",
+    "description": "A Python web application calling Microsoft graph that is secured using the Microsoft identity platform",
+    "url": "https://github.com/datapartnership/ms-identity-python-webapp",
+    "image_path": "generated_images/ms-identity-python-webapp.png"
+  },
+  {
+    "name": "Plantilla-de-repositorio",
+    "description": "Plantilla de repositorio y gu\u00edas de c\u00f3mo documentar y evaluar herramientas digitales seg\u00fan los est\u00e1ndares del BID",
+    "url": "https://github.com/datapartnership/Plantilla-de-repositorio",
+    "image_path": "generated_images/Plantilla-de-repositorio.png"
+  },
+  {
+    "name": "analytics_spatial_coverage_scl",
+    "description": "analytics_spatial_coverage_scl",
+    "url": "https://github.com/datapartnership/analytics_spatial_coverage_scl",
+    "image_path": "generated_images/analytics_spatial_coverage_scl.png"
+  },
+  {
+    "name": "TwitterEconomicMonitoring",
+    "description": "Collection of training materials to download and draw insights from Twitter data.",
+    "url": "https://github.com/datapartnership/TwitterEconomicMonitoring",
+    "image_path": "generated_images/TwitterEconomicMonitoring.png"
+  },
+  {
+    "name": "LinkedInSkillsDiagnostic",
+    "description": "Skills Diagnostic Tool on Linkedin public data set",
+    "url": "https://github.com/datapartnership/LinkedInSkillsDiagnostic",
+    "image_path": "generated_images/LinkedInSkillsDiagnostic.png"
+  },
+  {
+    "name": "geolocation-twitter-urban-planning",
+    "description": "This repository contains the code for the analysis and the reproducibility package for the paper \"Applying machine learning and geolocation techniques to social media data (Twitter) to develop a resource for urban planning\"",
+    "url": "https://github.com/datapartnership/geolocation-twitter-urban-planning",
+    "image_path": "generated_images/geolocation-twitter-urban-planning.png"
+  },
+  {
+    "name": "googletraffic",
+    "description": "R package to query Google Maps traffic data and transform into data",
+    "url": "https://github.com/datapartnership/googletraffic",
+    "image_path": "generated_images/googletraffic.png"
+  },
+  {
+    "name": "covid-gtrends",
+    "description": "Replication Package for: The Evolution of the COVID-19 Pandemic Through the Lens of Google Seaches",
+    "url": "https://github.com/datapartnership/covid-gtrends",
+    "image_path": "generated_images/covid-gtrends.png"
+  },
+  {
+    "name": "pacific-observatory",
+    "description": "Compiled analytics supporting the World Bank's Pacific Observatory",
+    "url": "https://github.com/datapartnership/pacific-observatory",
+    "image_path": "generated_images/pacific-observatory.png"
+  },
+  {
+    "name": "the-turing-way",
+    "description": "Host repository for The Turing Way: a how to guide for reproducible data science",
+    "url": "https://github.com/datapartnership/the-turing-way",
+    "image_path": "generated_images/the-turing-way.png"
+  },
+  {
+    "name": "WellcomeML",
+    "description": "Repository for Machine Learning utils at the Wellcome Trust",
+    "url": "https://github.com/datapartnership/WellcomeML",
+    "image_path": "generated_images/WellcomeML.png"
+  },
+  {
+    "name": "turkiye-earthquake-impact",
+    "description": "T\u00fcrkiye Earthquake Impact ",
+    "url": "https://github.com/datapartnership/turkiye-earthquake-impact",
+    "image_path": "generated_images/turkiye-earthquake-impact.png"
+  },
+  {
+    "name": "RapiD",
+    "description": "An editor for OpenStreetMap for mapping with AI-generated features.",
+    "url": "https://github.com/datapartnership/RapiD",
+    "image_path": "generated_images/RapiD.png"
+  },
+  {
+    "name": "MetPy",
+    "description": "MetPy is a collection of tools in Python for reading, visualizing and performing calculations with weather data.",
+    "url": "https://github.com/datapartnership/MetPy",
+    "image_path": "generated_images/MetPy.png"
+  },
+  {
+    "name": "myanmar-economic-monitor",
+    "description": "Resources to support the Myanmar Economic Monitor",
+    "url": "https://github.com/datapartnership/myanmar-economic-monitor",
+    "image_path": "generated_images/myanmar-economic-monitor.png"
+  },
+  {
+    "name": "Disease-Modelling-SSA",
+    "description": "This repository contains the code for an agent-based model used for COVID-19 in Sub-Saharan Africa. The original code was written in Python by Aivin Solatorio and is since being developed in Java. Complimentary risk modelling has been conducted in R as an intermediate product and is also part of this repo",
+    "url": "https://github.com/datapartnership/Disease-Modelling-SSA",
+    "image_path": "generated_images/Disease-Modelling-SSA.png"
+  },
+  {
+    "name": "skai",
+    "description": "SKAI is a machine learning based tool for performing automatic building damage assessments on aerial imagery of disaster sites.",
+    "url": "https://github.com/datapartnership/skai",
+    "image_path": "generated_images/skai.png"
+  },
+  {
+    "name": "glosario",
+    "description": "A multilingual glossary for computing and data science terms.",
+    "url": "https://github.com/datapartnership/glosario",
+    "image_path": "generated_images/glosario.png"
+  },
+  {
+    "name": "urbanpy",
+    "description": "A library to download, process and visualize high resolution urban data.\u00a0",
+    "url": "https://github.com/datapartnership/urbanpy",
+    "image_path": "generated_images/urbanpy.png"
+  },
+  {
+    "name": "yemen-economic-monitor",
+    "description": "Alternative Data Analytics to Support Monitoring the State of the Yemen Economy",
+    "url": "https://github.com/datapartnership/yemen-economic-monitor",
+    "image_path": "generated_images/yemen-economic-monitor.png"
+  },
+  {
+    "name": "morocco-economic-monitor",
+    "description": "Strategic Brief and Indicator list for Morocco's MTI team",
+    "url": "https://github.com/datapartnership/morocco-economic-monitor",
+    "image_path": "generated_images/morocco-economic-monitor.png"
+  },
+  {
+    "name": "CommutingZones",
+    "description": "Commuting zones are geographic areas where people live and work and are useful for understanding local economies, as well as how they differ from traditional boundaries. These zones are a set of boundary shapes built using aggregated estimates of home and work locations. Data used to build commuting zones is aggregated and de-identified.",
+    "url": "https://github.com/datapartnership/CommutingZones",
+    "image_path": "generated_images/CommutingZones.png"
+  },
+  {
+    "name": "lebanon-economic-monitor",
+    "description": "Understanding Lebanon's Economy through Alternative Data",
+    "url": "https://github.com/datapartnership/lebanon-economic-monitor",
+    "image_path": "generated_images/lebanon-economic-monitor.png"
+  },
+  {
+    "name": "scikit-mobility",
+    "description": "scikit-mobility: mobility analysis in Python",
+    "url": "https://github.com/datapartnership/scikit-mobility",
+    "image_path": "generated_images/scikit-mobility.png"
+  },
+  {
+    "name": "morocco-earthquake-impact",
+    "description": "Alternative data analytics for understanding impacts of the 2023 Morocco earthquake",
+    "url": "https://github.com/datapartnership/morocco-earthquake-impact",
+    "image_path": "generated_images/morocco-earthquake-impact.png"
+  },
+  {
+    "name": "innovationgraph",
+    "description": "GitHub Innovation Graph",
+    "url": "https://github.com/datapartnership/innovationgraph",
+    "image_path": "generated_images/innovationgraph.png"
+  },
+  {
+    "name": "quarto-dime-theme",
+    "description": "DIME theme for Quarto Reveal.js Presentations",
+    "url": "https://github.com/datapartnership/quarto-dime-theme",
+    "image_path": "generated_images/quarto-dime-theme.png"
+  },
+  {
+    "name": "egypt-economic-monitor",
+    "description": "This project uses alternative data to analyze economic activity, business dynamics, and spatial inequality in Egypt, including gender inequality. It develops indicators such as nighttime lights, business activity measures, and spatial datasets, alongside a Gender Equality Survey, to support economic analysis for the Egypt Country Memorandum",
+    "url": "https://github.com/datapartnership/egypt-economic-monitor",
+    "image_path": "generated_images/egypt-economic-monitor.png"
+  },
+  {
+    "name": "red-sea-monitoring",
+    "description": "This project monitors the impacts of the Red Sea shipping crisis on maritime traffic and regional economies by analysing vessel movements, port activity, and conflict dynamics. Using AIS maritime data, conflict event data, and mobility indicators, it tracks disruptions to key shipping routes and assesses economic impacts across affected sectors.",
+    "url": "https://github.com/datapartnership/red-sea-monitoring",
+    "image_path": "generated_images/red-sea-monitoring.png"
+  },
+  {
+    "name": "data",
+    "description": "Overture Maps Data",
+    "url": "https://github.com/datapartnership/data",
+    "image_path": "generated_images/data.png"
+  },
+  {
+    "name": "Panel-Segmentation",
+    "description": "This open-source package provides a framework for automatically detecting and extracting metadata from solar array installations in satellite images.",
+    "url": "https://github.com/datapartnership/Panel-Segmentation",
+    "image_path": "generated_images/Panel-Segmentation.png"
+  },
+  {
+    "name": "niger-economic-monitoring",
+    "description": "Niger Economic Monitoring",
+    "url": "https://github.com/datapartnership/niger-economic-monitoring",
+    "image_path": "generated_images/niger-economic-monitoring.png"
+  },
+  {
+    "name": "notebooks",
+    "description": "interactive notebooks from Planet Engineering",
+    "url": "https://github.com/datapartnership/notebooks",
+    "image_path": "generated_images/notebooks.png"
+  },
+  {
+    "name": "heatwaves-in-the-philippines",
+    "description": "Understanding Impacts of Excess Heat in Filipino cities",
+    "url": "https://github.com/datapartnership/heatwaves-in-the-philippines",
+    "image_path": "generated_images/heatwaves-in-the-philippines.png"
+  },
+  {
+    "name": "urban-resilience-after-climate-shocks",
+    "description": "Monitoring Near-Time Changes in Urban Space Usage after Climate Shocks ECA Urban Resilience",
+    "url": "https://github.com/datapartnership/urban-resilience-after-climate-shocks",
+    "image_path": "generated_images/urban-resilience-after-climate-shocks.png"
+  },
+  {
+    "name": "HREA",
+    "description": "Replication code to produce High Resolution Electricity Access data",
+    "url": "https://github.com/datapartnership/HREA",
+    "image_path": "generated_images/HREA.png"
+  },
+  {
+    "name": "schema",
+    "description": "Overture Maps Schema",
+    "url": "https://github.com/datapartnership/schema",
+    "image_path": "generated_images/schema.png"
+  },
+  {
+    "name": "python_package_template",
+    "description": "Template repository for python packages created by the Data Lab",
+    "url": "https://github.com/datapartnership/python_package_template",
+    "image_path": "generated_images/python_package_template.png"
+  },
+  {
+    "name": "acled_conflict_analysis",
+    "description": "Python package to extract analyze and map ACLED data",
+    "url": "https://github.com/datapartnership/acled_conflict_analysis",
+    "image_path": "generated_images/acled_conflict_analysis.png"
+  },
+  {
+    "name": "org-metrics-dashboard",
+    "description": "An actions-powered dashboard to get an overview of your organization's open source repository health",
+    "url": "https://github.com/datapartnership/org-metrics-dashboard",
+    "image_path": "generated_images/org-metrics-dashboard.png"
+  },
+  {
+    "name": "dat-cat",
+    "description": "Proto-type catalog for Data Lab-supported projects",
+    "url": "https://github.com/datapartnership/dat-cat",
+    "image_path": "generated_images/dat-cat.png"
+  },
+  {
+    "name": "conflict-nlp",
+    "description": "Using NLP techniques (topic Modelling, LLMs) to analyze conflict data from ACLED",
+    "url": "https://github.com/datapartnership/conflict-nlp",
+    "image_path": "generated_images/conflict-nlp.png"
+  },
+  {
+    "name": "evi_runner",
+    "description": "Python package to automate vegetation index analysis using Earth Engine data.",
+    "url": "https://github.com/datapartnership/evi_runner",
+    "image_path": "generated_images/evi_runner.png"
+  },
+  {
+    "name": "crop_productivity_package",
+    "description": "Modular pipeline for monitoring agricultural productivity using MODIS EVI and Google Earth Engine, with support for cropland masking, zonal statistics, anomaly detection, and automated export.",
+    "url": "https://github.com/datapartnership/crop_productivity_package",
+    "image_path": "generated_images/crop_productivity_package.png"
+  },
+  {
+    "name": "blackmarblepy",
+    "description": "Georeferenced Rasters and Statistics of Nightlights from NASA Black Marble",
+    "url": "https://github.com/datapartnership/blackmarblepy",
+    "image_path": "generated_images/blackmarblepy.png"
+  },
+  {
+    "name": "projects",
+    "description": "Proto-type catalog for Data Lab-supported projects",
+    "url": "https://github.com/datapartnership/projects",
+    "image_path": "generated_images/projects.png"
+  },
+  {
+    "name": "ai",
+    "description": "Unlocking Data Silos for AI Applications\u200b Deck",
+    "url": "https://github.com/datapartnership/ai",
+    "image_path": "generated_images/ai.png"
+  },
+  {
+    "name": "ai-roundtable",
+    "description": "AI Roundtable Agenda",
+    "url": "https://github.com/datapartnership/ai-roundtable",
+    "image_path": "generated_images/ai-roundtable.png"
+  },
+  {
+    "name": "gf-datasets",
+    "description": "Public page for learning about and submitting application to access Gates Foundation-supported datasets. ",
+    "url": "https://github.com/datapartnership/gf-datasets",
+    "image_path": "generated_images/gf-datasets.png"
+  },
+  {
+    "name": "AI-tech-committee",
+    "description": "AI Roundtable Technical Committee Briefing Note",
+    "url": "https://github.com/datapartnership/AI-tech-committee",
+    "image_path": "generated_images/AI-tech-committee.png"
+  },
+  {
+    "name": "open-router-analysis",
+    "description": "OpenRouter analysis exploring country-level trends in AI model usage over time, with monthly indices and visualizations.",
+    "url": "https://github.com/datapartnership/open-router-analysis",
+    "image_path": "generated_images/open-router-analysis.png"
+  },
+  {
+    "name": "ddp-catalog",
+    "description": "Data Partnership Source Code catalog site, surfacing DDP projects to make them more discoverable.",
+    "url": "https://github.com/datapartnership/ddp-catalog",
+    "image_path": "generated_images/ddp-catalog.png"
+  },
+  {
+    "name": "ai-roundtable-2",
+    "description": "Briefing Book for the Second AI Roundtable",
+    "url": "https://github.com/datapartnership/ai-roundtable-2",
+    "image_path": "generated_images/ai-roundtable-2.png"
+  },
+  {
+    "name": "ai-index-workplan",
+    "description": "Draft Workplan",
+    "url": "https://github.com/datapartnership/ai-index-workplan",
+    "image_path": "generated_images/ai-index-workplan.png"
+  }
+]

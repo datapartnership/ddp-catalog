@@ -6,6 +6,7 @@ import ProjectCard from "../components/ProjectCard";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { getAssetPath } from "../utils/paths";
+import repoImages from "../../repo_images.json";
 
 interface Repo {
   id: number;
@@ -21,6 +22,10 @@ interface Repo {
   updated_at?: string;
   catalogAddedDate?: string;
 }
+
+const repoImageMap: Record<string, string> = Object.fromEntries(
+  (repoImages as { name: string; image_path: string }[]).map((r) => [r.name, r.image_path])
+);
 
 export default function CatalogNewPage() {
   const [repos, setRepos] = useState<Repo[]>([]);
@@ -354,6 +359,7 @@ export default function CatalogNewPage() {
                     repo={repo}
                     topic={topic}
                     setTopic={setTopic}
+                    imagePath={repoImageMap[repo.name] ? getAssetPath(`/${repoImageMap[repo.name]}`) : undefined}
                   />
                 ))}
               </div>

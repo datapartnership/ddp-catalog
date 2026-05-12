@@ -20,16 +20,26 @@ interface ProjectCardProps {
   repo: Repo;
   topic: string;
   setTopic: (topic: string) => void;
+  imagePath?: string;
 }
 
 const MAX_VISIBLE_TOPICS = 6;
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ repo, topic, setTopic }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ repo, topic, setTopic, imagePath }) => {
   const [showAllTopics, setShowAllTopics] = useState(false);
 
 
   return (
   <div className="site-card" tabIndex={0} role="button" aria-label={`Open ${repo.name} on GitHub`} style={{ width: '100%', minHeight: 320, maxHeight: 480 }}>
+      {imagePath && (
+        <div style={{ width: '100%', height: 140, overflow: 'hidden', borderRadius: '8px 8px 0 0', marginBottom: '0.75rem', flexShrink: 0 }}>
+          <img
+            src={imagePath}
+            alt={`${repo.name} preview`}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+          />
+        </div>
+      )}
       <a
         href={repo.html_url}
         target="_blank"

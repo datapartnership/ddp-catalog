@@ -62,12 +62,12 @@ return (
         {/* Hero text left */}
         <div className="homepage-hero-text">
           <h1 className="hero-title" style={{ fontFamily: "var(--font-asap-condensed), sans-serif", fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 700, color: '#001E60', letterSpacing: '0px', marginBottom: '1rem' }}>
-            World Bank and Open Source
+            Development Data Partnership and Open Source
           </h1>
           <p className="hero-desc" style={{ fontFamily: "var(--font-open-sans), sans-serif", fontSize: 'clamp(1rem, 2vw, 1.1rem)', color: '#495057', fontWeight: 400, lineHeight: 1.5, maxWidth: '1200px', marginBottom: 0 }}>
-            At the World Bank, we strive to cultivate open source development by building communities for support, maintenance and enhancement in addition to sharing knowledge and expertise in alignment with the Sustainable Development Goals.
+            At the Development Data Partnership, we strive to cultivate open source development by building communities for support, maintenance, and enhancement — bringing together international organizations and private companies to share knowledge, data, and expertise in alignment with the Sustainable Development Goals.
             <br /><br />
-            As a global knowledge bank, we champion transparency and collaboration by making high-quality information and open source tools accessible to all. Utilize our open data, software and research to drive evidence-based solutions and advance sustainable development worldwide.
+            As a neutral platform bridging the public and private sectors, we champion transparency and collaboration by making high-quality data and open source tools accessible to the global development community. Through our curated catalog of data partnerships and shared analytical resources, we enable evidence-based solutions and empower organizations worldwide to advance sustainable development.
           </p>
         </div>
         {/* Hero image right */}
@@ -102,7 +102,7 @@ return (
           </div>
           {/* Catalog info */}
           <div className="homepage-box-content">
-            <h3 style={{ fontFamily: "var(--font-asap-condensed), sans-serif", fontSize: '1.5rem', fontWeight: 700, color: '#001E60', marginBottom: '1rem' }}>Open Source Code Catalog</h3>
+            <h3 style={{ fontFamily: "var(--font-asap-condensed), sans-serif", fontSize: '1.5rem', fontWeight: 700, color: '#001E60', marginBottom: '1rem' }}>Code Catalog</h3>
             <p style={{ fontFamily: "var(--font-open-sans), sans-serif", color: '#001E60', fontSize: '1rem', marginBottom: '1.5rem' }}>
               Browse our open source code, filter by topic, language, and popularity, and find tools for you to use or contribute.
             </p>
@@ -140,16 +140,16 @@ return (
         <article className="homepage-box">
           {/* GitHub image flush left */}
           <div className="homepage-box-image" style={{ background: '#24292f', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <img src={getAssetPath("/img/github.svg")} alt="GitHub logo - World Bank organization" width="180" height="180" loading="lazy" style={{ display: 'block' }} />
+            <img src={getAssetPath("/img/github.svg")} alt="GitHub logo - Development Data Partnership organization" width="180" height="180" loading="lazy" style={{ display: 'block' }} />
           </div>
           {/* GitHub info */}
           <div className="homepage-box-content">
             <h3 style={{ fontFamily: "var(--font-asap-condensed), sans-serif", fontSize: '1.5rem', fontWeight: 700, color: '#001E60', marginBottom: '1rem' }}>GitHub Organization</h3>
             <p style={{ fontFamily: "var(--font-open-sans), sans-serif", color: '#001E60', fontSize: '1rem', marginBottom: '1.5rem' }}>
-              See all World Bank open source repositories, contribute, and join our developer community on GitHub.
+              See all Development Data Partnership source repositories, contribute, and join our developer community on GitHub.
             </p>
             <a
-              href="https://github.com/worldbank"
+              href="https://github.com/datapartnership"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -224,9 +224,9 @@ return (
               </div>
             </li>
             <li>
-              <a href="https://reproducibility.worldbank.org/home" target="_blank" rel="noopener noreferrer" style={{ fontWeight: '600', color: '#F7951D', textDecoration: 'underline' }}>Reproducible Research Repository</a>
+              <a href="https://worldbankgroup.sharepoint.com/:w:/r/teams/DevelopmentDataPartnershipCommunity-WBGroup/Shared%20Documents/DDPCatalog/DDPCatalogChecklist.docx?d=w3398634e678c473bb1c679f069576e10&csf=1&web=1&e=haamlP" target="_blank" rel="noopener noreferrer" style={{ fontWeight: '600', color: '#F7951D', textDecoration: 'underline' }}>Development Data Partnership Catalog Checklist</a>
               <div style={{ color: '#495057', fontSize: '0.97rem', margin: '0.2rem 0 0.7rem 0' }}>
-                The Reproducible Research Repository is a one-stop shop for reproducibility packages associated with World Bank research. The catalogued packages provide the analytical scripts, documentation, and, where possible, the data needed to reproduce the results in the associated paper.
+                The Development Data Partnership Catalog Checklist guides partners on preparing GitHub repositories for inclusion in the Development Data Partnership catalog. It outlines requirements across repository documentation (README structure, MIT License with a World Bank IGO Rider), metadata and discoverability (naming, topics, and preview images), technical standards (versioning, reproducibility, and citation files), and safety rules (no raw data, passwords, or hard-coded variables).
               </div>
             </li>
           </ul>

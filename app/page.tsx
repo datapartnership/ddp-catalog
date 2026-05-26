@@ -57,17 +57,17 @@ return (
     />
     <Header />
     {/* Hero Section with image to the right, full-bleed background */}
-    <div style={{ width: '100vw', position: 'relative', left: '50%', right: '50%', marginLeft: '-50vw', marginRight: '-50vw', background: '#fff', boxShadow: '0 2px 16px 0 rgba(21,53,63,0.06)' }}>
+    <div style={{ width: '100vw', position: 'relative', left: '50%', right: '50%', marginLeft: '-50vw', marginRight: '-50vw', marginTop: "20px", background: '#fff', boxShadow: '0 2px 16px 0 rgba(21,53,63,0.06)' }}>
       <section className="homepage-hero-section" aria-label="Hero section">
         {/* Hero text left */}
-        <div className="homepage-hero-text">
+        <div className="homepage-hero-text" style={{marginTop: '20px'}}>
           <h1 className="hero-title" style={{ fontFamily: "var(--font-asap-condensed), sans-serif", fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 700, color: '#001E60', letterSpacing: '0px', marginBottom: '1rem' }}>
-            Development Data Partnership and Open Source
+            Development Data Partnership Code Catalog
           </h1>
           <p className="hero-desc" style={{ fontFamily: "var(--font-open-sans), sans-serif", fontSize: 'clamp(1rem, 2vw, 1.1rem)', color: '#495057', fontWeight: 400, lineHeight: 1.5, maxWidth: '1200px', marginBottom: 0 }}>
-            At the Development Data Partnership, we strive to cultivate open source development by building communities for support, maintenance, and enhancement — bringing together international organizations and private companies to share knowledge, data, and expertise in alignment with the Sustainable Development Goals.
+            The Development Data Partnership Code Catalog is a curated collection of code, tools, pipelines, and analytical frameworks developed across Partnership projects. Built on the collaborative work of data scientists and researchers from international organizations and technology companies, these repositories represent the methodological backbone of over 150 development projects spanning all Sustainable Development Goals.
             <br /><br />
-            As a neutral platform bridging the public and private sectors, we champion transparency and collaboration by making high-quality data and open source tools accessible to the global development community. Through our curated catalog of data partnerships and shared analytical resources, we enable evidence-based solutions and empower organizations worldwide to advance sustainable development.
+            From data ingestion and processing workflows to reusable analytical models, the catalog surfaces the code that transforms proprietary datasets into sharable, reproducible insights empowering teams to build on each other's work, accelerate project delivery, and advance the Partnership's mission of improving public sector services and infrastructure in emerging economies.
           </p>
         </div>
         {/* Hero image right */}
@@ -212,28 +212,22 @@ return (
           <h3 style={{ fontSize: '1.3rem', fontWeight: 600, color: '#001E60', marginBottom: '1rem' }}>Related Resources</h3>
           <ul style={{ paddingLeft: '0.5rem', color: '#495057', fontSize: '1rem' }}>
             <li>
-              <a href="https://data.worldbank.org/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: '600', color: '#F7951D', textDecoration: 'underline' }}>World Bank Open Data</a>
-              <div style={{ color: '#495057', fontSize: '0.97rem', margin: '0.2rem 0 0.7rem 0' }}>
-                The World Bank’s open data portal provides free and open access to global development data, much of which is available under open licenses for reuse and analysis.
-              </div>
-            </li>
-            <li>
-              <a href="https://openknowledge.worldbank.org/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: '600', color: '#F7951D', textDecoration: 'underline' }}>Open Knowledge Repository</a>
-              <div style={{ color: '#495057', fontSize: '0.97rem', margin: '0.2rem 0 0.7rem 0' }}>
-                The World Bank’s open access repository for research, publications, and datasets. Most content is released under Creative Commons licenses, supporting open knowledge and reuse.
-              </div>
-            </li>
-            <li>
               <a href="https://worldbankgroup.sharepoint.com/:w:/r/teams/DevelopmentDataPartnershipCommunity-WBGroup/Shared%20Documents/DDPCatalog/DDPCatalogChecklist.docx?d=w3398634e678c473bb1c679f069576e10&csf=1&web=1&e=haamlP" target="_blank" rel="noopener noreferrer" style={{ fontWeight: '600', color: '#F7951D', textDecoration: 'underline' }}>Development Data Partnership Catalog Checklist</a>
               <div style={{ color: '#495057', fontSize: '0.97rem', margin: '0.2rem 0 0.7rem 0' }}>
                 The Development Data Partnership Catalog Checklist guides partners on preparing GitHub repositories for inclusion in the Development Data Partnership catalog. It outlines requirements across repository documentation (README structure, MIT License with a World Bank IGO Rider), metadata and discoverability (naming, topics, and preview images), technical standards (versioning, reproducibility, and citation files), and safety rules (no raw data, passwords, or hard-coded variables).
               </div>
             </li>
+            <li>
+              <a href="https://datapartnership.org/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: '600', color: '#F7951D', textDecoration: 'underline' }}>Development Data Partnership Homepage</a>
+              <div style={{ color: '#495057', fontSize: '0.97rem', margin: '0.2rem 0 0.7rem 0' }}>
+                The Development Data Partnership Home Page.
+              </div>
+            </li>            
           </ul>
         </div>
       </section>
     </div>
-    <Footer />
+    <Footer></Footer>
   </div>
 );
 }

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../globals.css";
 import Link from "next/link";
 import { getAssetPath } from "../utils/paths";
 
@@ -15,8 +14,8 @@ export default function Header() {
       </Link>
   <div className="site-header-nav site-header-nav-desktop">
   <Link href="/catalog" className="site-header-link">CODE CATALOG</Link>
-  <a href="https://github.com/worldbank" target="_blank" rel="noopener noreferrer" className="site-header-link">WB GITHUB</a>
-  <a href="mailto:github@worldbank.org" className="site-header-link">CONTACT US</a>
+  <a href="https://github.com/datapartnership" target="_blank" rel="noopener noreferrer" className="site-header-link">DDP GITHUB</a>
+  <a href="mailto:datapartnership@worldbank.org" className="site-header-link">CONTACT US</a>
       </div>
       <button
   className="site-header-hamburger"
@@ -35,8 +34,8 @@ export default function Header() {
       {menuOpen && (
   <div className="site-header-menu">
           <Link href="/catalog" className="site-header-link">CODE CATALOG</Link>
-          <a href="https://github.com/worldbank" className="site-header-link">WB GITHUB</a>
-          <a href="mailto:github@worldbank.org" className="site-header-link">CONTACT US</a>
+          <a href="https://github.com/datapartnership" className="site-header-link">DDP GITHUB</a>
+          <a href="mailto:datapartnership@worldbank.org" className="site-header-link">CONTACT US</a>
         </div>
       )}
     </header>

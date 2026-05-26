@@ -416,6 +416,165 @@ p {
   padding-right: 1rem;
 }
 
+/* DDP Footer (datapartnership.org style) */
+.ddp-footer {
+  background: #001E60;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: var(--font-open-sans), sans-serif;
+  padding: 3rem 0 0;
+  margin-top: auto;
+}
+
+/* Override ddp.css generic footer rules for the DDP footer */
+footer.ddp-footer {
+  padding: 3rem 0 0;
+}
+
+.ddp-footer a,
+.ddp-footer .ddp-footer-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ddp-footer a:hover,
+.ddp-footer .ddp-footer-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ddp-footer .ddp-footer-social-link {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.ddp-footer .ddp-footer-social-link:hover {
+  color: #ffffff;
+}
+
+.ddp-footer p,
+.ddp-footer .ddp-footer-about {
+  color: rgba(255, 255, 255, 0.6);
+  max-width: none;
+  margin: 0;
+}
+
+.ddp-footer h4,
+.ddp-footer .ddp-footer-heading {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: var(--font-open-sans), sans-serif;
+}
+
+.ddp-footer-inner {
+  display: flex;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 2.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.ddp-footer-brand {
+  flex: 2;
+  min-width: 0;
+}
+
+.ddp-footer-logo {
+  height: 36px;
+  width: auto;
+  opacity: 0.85;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.ddp-footer-about {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+.ddp-footer-links,
+.ddp-footer-contact {
+  flex: 1;
+  min-width: 140px;
+}
+
+.ddp-footer-heading {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 0 1rem;
+}
+
+.ddp-footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.ddp-footer-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.ddp-footer-link:hover {
+  color: #ffffff;
+}
+
+.ddp-footer-email {
+  display: block;
+  margin-bottom: 1.25rem;
+  font-size: 0.85rem;
+  word-break: break-all;
+}
+
+.ddp-footer-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.ddp-footer-social-link {
+  color: rgba(255, 255, 255, 0.55);
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.ddp-footer-social-link:hover {
+  color: #ffffff;
+}
+
+.ddp-footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.ddp-footer .ddp-footer-bottom a,
+.ddp-footer-bottom .ddp-footer-link {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.ddp-footer .ddp-footer-bottom a:hover,
+.ddp-footer-bottom .ddp-footer-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 768px) {
+  .ddp-footer-inner {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
 .site-card {
   background: #fff;
   border-radius: 12px;

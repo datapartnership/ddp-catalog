@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: "build"
@@ -56,3 +56,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+      - name: Publish build branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan build
+          git rm -rf .
+          cp -r out/. .
+          rm -rf out
+          git add -A
+          git commit -m "build: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push origin build --force

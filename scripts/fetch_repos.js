@@ -15,7 +15,7 @@ async function fetchReposFromOrg(orgName) {
     const token = orgName === 'worldbank'
       ? process.env.WORLDBANK_PAT_SECRET
       : process.env.GITHUB_TOKEN;
-    const res = await fetch(`https://api.github.com/orgs/${orgName}/repos?per_page=100&page=${page}`, {
+    const res = await fetch(`https://api.github.com/orgs/${orgName}/repos?per_page=100&page=${page}&type=all`, {
       headers: {
         Accept: "application/vnd.github.mercy-preview+json",
         ...(token && { Authorization: `Bearer ${token}` })
@@ -73,14 +73,10 @@ async function fetchAllRepos() {
   // Filter for repos with catalog=true custom property
   // For worldbank org repos, also require the 'datapartnership' topic
   const catalogRepos = allRepos.filter(repo => {
-    const hasCatalogProperty = repo.custom_properties &&
-           repo.custom_properties.catalog === "true";
-    if (!hasCatalogProperty) return false;
-
     if (repo.owner && repo.owner.login === 'worldbank') {
       return Array.isArray(repo.topics) && repo.topics.includes('datapartnership');
     }
-    return true;
+    return repo.custom_properties && repo.custom_properties.catalog === "true";
   });
   
   console.log(`Repos with catalog=true: ${catalogRepos.length}`);

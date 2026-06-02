@@ -616,5 +616,17 @@
     "description": "description",
     "url": "https://github.com/datapartnership/LowResourceLanguageLibraryAPI",
     "image_path": "project_images/lrll.png"
+  },
+  {
+    "name": "gaza",
+    "description": "description",
+    "url": "https://github.com/worldbank/gaza-israel-conflict-impact-analysis",
+    "image_path": "project_images/gaza.png"
+  },
+  {
+    "name": "sudan",
+    "description": "description",
+    "url": "https://github.com/worldbank/sudan-poverty-monitoring",
+    "image_path": "project_images/sudan.png"
   }
 ]

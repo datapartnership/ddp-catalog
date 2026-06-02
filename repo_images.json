@@ -189,7 +189,7 @@
     "name": "india-kerala-resilience",
     "description": "Understanding the vulnerability of Kerala to Heatwaves",
     "url": "https://github.com/datapartnership/india-kerala-resilience",
-    "image_path": "generated_images/india-kerala-resilience.png"
+    "image_path": "project_images/kerala.png"
   },
   {
     "name": "mapbox-sdk-py",
@@ -201,7 +201,7 @@
     "name": "syria-economic-monitor",
     "description": "This project uses alternative data, including remote sensing, to track economic activity in Syria in a data-scarce, conflict-affected context. It analyses port and trade activity, mobility patterns, internet connectivity, nighttime lights, vegetation conditions, and conflict events to monitor economic trends and support evidence-based policy.",
     "url": "https://github.com/datapartnership/syria-economic-monitor",
-    "image_path": "generated_images/syria-economic-monitor.png"
+    "image_path": "project_images/syr.png"
   },
   {
     "name": "heatwaves",
@@ -285,7 +285,7 @@
     "name": "turkiye-earthquake-impact",
     "description": "T\u00fcrkiye Earthquake Impact ",
     "url": "https://github.com/datapartnership/turkiye-earthquake-impact",
-    "image_path": "generated_images/turkiye-earthquake-impact.png"
+    "image_path": "project_images/turk.png"
   },
   {
     "name": "RapiD",
@@ -303,7 +303,7 @@
     "name": "myanmar-economic-monitor",
     "description": "Resources to support the Myanmar Economic Monitor",
     "url": "https://github.com/datapartnership/myanmar-economic-monitor",
-    "image_path": "generated_images/myanmar-economic-monitor.png"
+    "image_path": "project_images/myan.png"
   },
   {
     "name": "Disease-Modelling-SSA",
@@ -351,7 +351,7 @@
     "name": "lebanon-economic-monitor",
     "description": "Understanding Lebanon's Economy through Alternative Data",
     "url": "https://github.com/datapartnership/lebanon-economic-monitor",
-    "image_path": "generated_images/lebanon-economic-monitor.png"
+    "image_path": "project_images/leb.png"
   },
   {
     "name": "scikit-mobility",
@@ -363,7 +363,7 @@
     "name": "morocco-earthquake-impact",
     "description": "Alternative data analytics for understanding impacts of the 2023 Morocco earthquake",
     "url": "https://github.com/datapartnership/morocco-earthquake-impact",
-    "image_path": "generated_images/morocco-earthquake-impact.png"
+    "image_path": "project_images/mor-earth.png"
   },
   {
     "name": "innovationgraph",
@@ -387,7 +387,7 @@
     "name": "red-sea-monitoring",
     "description": "This project monitors the impacts of the Red Sea shipping crisis on maritime traffic and regional economies by analysing vessel movements, port activity, and conflict dynamics. Using AIS maritime data, conflict event data, and mobility indicators, it tracks disruptions to key shipping routes and assesses economic impacts across affected sectors.",
     "url": "https://github.com/datapartnership/red-sea-monitoring",
-    "image_path": "generated_images/red-sea-monitoring.png"
+    "image_path": "project_images/red-sea.png"
   },
   {
     "name": "data",
@@ -405,7 +405,7 @@
     "name": "niger-economic-monitoring",
     "description": "Niger Economic Monitoring",
     "url": "https://github.com/datapartnership/niger-economic-monitoring",
-    "image_path": "generated_images/niger-economic-monitoring.png"
+    "image_path": "project_images/niger.png"
   },
   {
     "name": "notebooks",
@@ -417,7 +417,7 @@
     "name": "heatwaves-in-the-philippines",
     "description": "Understanding Impacts of Excess Heat in Filipino cities",
     "url": "https://github.com/datapartnership/heatwaves-in-the-philippines",
-    "image_path": "generated_images/heatwaves-in-the-philippines.png"
+    "image_path": "project_images/phil-heat.png"
   },
   {
     "name": "urban-resilience-after-climate-shocks",

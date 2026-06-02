@@ -1,0 +1,97 @@
+[
+  {
+    "name": "BikesBogota",
+    "url": "https://github.com/datapartnership/BikesBogota",
+    "description": "This project provides a data science framework for planning bicycle infrastructure growth in Bogot\u00e1, Colombia. Using GPS trajectory data, origin-destination flows, map matching, and network percolation analysis, it identifies and prioritizes locations for new cycling infrastructure. "
+  },
+  {
+    "name": ".github",
+    "url": "https://github.com/datapartnership/.github",
+    "description": null
+  },
+  {
+    "name": "Google_Stock_Trend_Track",
+    "url": "https://github.com/datapartnership/Google_Stock_Trend_Track",
+    "description": "A Python tool for tracking changes in Google Trends search interest alongside corresponding stock price movements. It uses the pytrends and Polygon.io APIs to explore relationships between public search activity and equity market behavior over time."
+  },
+  {
+    "name": "iQual",
+    "url": "https://github.com/datapartnership/iQual",
+    "description": "A package for scaling interpretive qualitative analysis of open-ended survey responses using NLP. It extends small sets of human-coded labels to larger document collections through text vectorization and classification workflows, with built-in tests for bias, interpretability, and reliability. Applied to interviews on parental aspirations."
+  },
+  {
+    "name": "toolkit_for_gps_mobility_data_analysis",
+    "url": "https://github.com/datapartnership/toolkit_for_gps_mobility_data_analysis",
+    "description": null
+  },
+  {
+    "name": "mobilyze",
+    "url": "https://github.com/datapartnership/mobilyze",
+    "description": "A Python package in development for processing, visualizing, and analyzing mobility data to quantify activity levels and movement patterns. It provides tools for data preprocessing, activity analysis, tessellation generation, and mobility metric calculation."
+  },
+  {
+    "name": "ethiopia-economic-monitoring",
+    "url": "https://github.com/datapartnership/ethiopia-economic-monitoring",
+    "description": "This project uses alternative data to monitor economic and poverty trends in Ethiopia. It analyzes nighttime lights, air pollution, crop productivity, conflict events, Google search trends, and crowd-sourced survey data to track economic activity, agricultural conditions, and societal responses to conflict and crisis."
+  },
+  {
+    "name": "air-pollution-mobility-research-project",
+    "url": "https://github.com/datapartnership/air-pollution-mobility-research-project",
+    "description": "This project examines how air pollution influences human mobility and economic activity by combining environmental data with movement indicators. It uses geospatial and temporal analysis to identify how changes in air quality affect behavior and economic patterns across regions."
+  },
+  {
+    "name": "bolivia-economic-monitor",
+    "url": "https://github.com/datapartnership/bolivia-economic-monitor",
+    "description": "This project monitors economic activity in Bolivia using satellite-derived indicators including agricultural activity, deforestation, vegetation indices (EVI), and air pollution (NO\u2082). It applies geospatial and statistical analysis to track changes in land use, environmental conditions, and economic trends."
+  },
+  {
+    "name": "MENAAP-Conflict-Analysis",
+    "url": "https://github.com/datapartnership/MENAAP-Conflict-Analysis",
+    "description": "This project analyzes conflict events and population exposure using data from the Armed Conflict Location & Event Data Project (ACLED) and WorldPop population rasters. It maps conflict fatalities, applies spatial gridding, and estimates exposed populations at country level to support regional conflict monitoring and humanitarian analysis."
+  },
+  {
+    "name": "GenZ_Protest_Analysis",
+    "url": "https://github.com/datapartnership/GenZ_Protest_Analysis",
+    "description": "This project analyzes Gen Z protest participation using conflict event data, demographic analysis, and social contract indicators. It combines protest data from the Armed Conflict Location & Event Data Project (ACLED), UN population estimates, and Gallup World Poll data to examine youth-led mobilization patterns and protest dynamics."
+  },
+  {
+    "name": "algeria-economic-monitoring",
+    "url": "https://github.com/datapartnership/algeria-economic-monitoring",
+    "description": "This project uses alternative data sources to monitor economic activity in Algeria where traditional data are limited. It combines datasets such as nighttime lights, air pollution, surveys, and internet connectivity, applying geospatial and statistical analysis to track economic trends and sectoral patterns."
+  },
+  {
+    "name": "LowResourceLanguageLibraryAPI",
+    "url": "https://github.com/datapartnership/LowResourceLanguageLibraryAPI",
+    "description": null
+  },
+  {
+    "name": "alternative-data-for-crisis",
+    "url": "https://github.com/worldbank/alternative-data-for-crisis",
+    "description": "Using Alternative Data to Assess Immediate Economic Impacts of Crises -- Conflict and Natural Disasters"
+  },
+  {
+    "name": "wazeasy",
+    "url": "https://github.com/worldbank/wazeasy",
+    "description": "Wazeasy is a Python package currently in development, designed to process Waze's data"
+  },
+  {
+    "name": "ntl-training",
+    "url": "https://github.com/worldbank/ntl-training",
+    "description": "Training on using nighttime lights data from NASA Black Marble for development analysis, including geospatial impact evaluations"
+  },
+  {
+    "name": "MENA-FCV-economic-monitor",
+    "url": "https://github.com/worldbank/MENA-FCV-economic-monitor",
+    "description": "This assignment aims to compare the impacts of conflict across the Fragile, Conflict, and Violence (FCV) regions of the Middle East and North Africa (MENA), Afghanistan, and Pakistan through alternative data sources."
+  },
+  {
+    "name": "indonesia-traffic-analysis",
+    "url": "https://github.com/worldbank/indonesia-traffic-analysis",
+    "description": "Congestion, accessibility, and connected communities analysis for Bali using proprietary and open-source mobility data."
+  },
+  {
+    "name": "eca-resilience",
+    "url": "https://github.com/worldbank/eca-resilience",
+    "description": "GPS-based analysis of human mobility and urban space usage during atypical events."
+  }
+]

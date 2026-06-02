@@ -13,7 +13,10 @@ async function fetchReposFromOrg(orgName) {
   
   while (hasMore) {
     const res = await fetch(`https://api.github.com/orgs/${orgName}/repos?per_page=100&page=${page}`, {
-      headers: { Accept: "application/vnd.github.mercy-preview+json" }
+      headers: {
+        Accept: "application/vnd.github.mercy-preview+json",
+        ...(process.env.GITHUB_TOKEN && { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` })
+      }
     });
     if (!res.ok) {
       console.error(`Failed to fetch repositories from ${orgName}: ${res.status} ${res.statusText}`);

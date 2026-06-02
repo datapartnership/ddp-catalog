@@ -36,7 +36,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ repo, topic, setTopic, imageP
           <img
             src={imagePath}
             alt={`${repo.name} preview`}
-            style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }}
+            style={{ width: '100%', height: '100%', objectFit: 'fill', display: 'block' }}
           />
         </div>
       )}

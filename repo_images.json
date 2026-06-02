@@ -471,7 +471,7 @@
     "name": "evi_runner",
     "description": "Python package to automate vegetation index analysis using Earth Engine data.",
     "url": "https://github.com/datapartnership/evi_runner",
-    "image_path": "generated_images/evi_runner.png"
+    "image_path": "project_images/evy.png"
   },
   {
     "name": "crop_productivity_package",

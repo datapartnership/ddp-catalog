@@ -27,7 +27,7 @@
     "name": "hospital-accessibility",
     "description": "Hospital Accessibility Analysis",
     "url": "https://github.com/datapartnership/hospital-accessibility",
-    "image_path": "generated_images/hospital-accessibility.png"
+    "image_path": "project_images/idn_drv.png"
   },
   {
     "name": "covid19-indonesia-social-media-monitoring",
@@ -339,7 +339,7 @@
     "name": "morocco-economic-monitor",
     "description": "Strategic Brief and Indicator list for Morocco's MTI team",
     "url": "https://github.com/datapartnership/morocco-economic-monitor",
-    "image_path": "generated_images/morocco-economic-monitor.png"
+    "image_path": "project_images/morocco_dr.png"
   },
   {
     "name": "CommutingZones",
@@ -482,8 +482,8 @@
   {
     "name": "blackmarblepy",
     "description": "Georeferenced Rasters and Statistics of Nightlights from NASA Black Marble",
-    "url": "https://github.com/datapartnership/blackmarblepy",
-    "image_path": "generated_images/blackmarblepy.png"
+    "url": "https://github.com/worldbank/blackmarblepy",
+    "image_path": "project_images/blackmarble.png"
   },
   {
     "name": "projects",
@@ -538,5 +538,83 @@
     "description": "Draft Workplan",
     "url": "https://github.com/datapartnership/ai-index-workplan",
     "image_path": "generated_images/ai-index-workplan.png"
+  },
+{
+    "name": "dataforcrisis",
+    "description": "description",
+    "url": "https://github.com/worldbank/alternative-data-for-crisis",
+    "image_path": "project_images/dataforcrisis.png"
+  },
+  {
+    "name": "wazeeasy",
+    "description": "description",
+    "url": "https://github.com/worldbank/wazeasy",
+    "image_path": "project_images/wazeeasy.png"
+  },
+  {
+    "name": "ntl",
+    "description": "description",
+    "url": "https://github.com/worldbank/ntl-training",
+    "image_path": "project_images/ntl.png"
+  },
+  {
+    "name": "menafcv",
+    "description": "description",
+    "url": "https://github.com/worldbank/MENA-FCV-economic-monitor",
+    "image_path": "project_images/menafcv.png"
+  },
+  {
+    "name": "mobilyze",
+    "description": "description",
+    "url": "https://github.com/datapartnership/mobilyze",
+    "image_path": "project_images/mobilyze.png"
+  },
+  {
+    "name": "algeriaem",
+    "description": "description",
+    "url": "https://github.com/datapartnership/algeria-economic-monitoring",
+    "image_path": "project_images/algeriaem.png"
+  },
+  {
+    "name": "ethiopiaem",
+    "description": "description",
+    "url": "https://github.com/datapartnership/ethiopia-economic-monitoring",
+    "image_path": "project_images/ethiopiaem.png"
+  },
+  {
+    "name": "boliviaem",
+    "description": "description",
+    "url": "https://github.com/worldbank/template",
+    "image_path": "project_images/boliviaem.png"
+  },
+  {
+    "name": "menaapca",
+    "description": "description",
+    "url": "https://github.com/datapartnership/MENAAP-Conflict-Analysis",
+    "image_path": "project_images/menaapca.png"
+  },
+  {
+    "name": "genzpa",
+    "description": "description",
+    "url": "https://github.com/worldbank/template",
+    "image_path": "project_images/genzpa.png"
+  },
+  {
+    "name": "indonesiata",
+    "description": "description",
+    "url": "https://github.com/worldbank/indonesia-traffic-analysis",
+    "image_path": "project_images/indonesiata.png"
+  },
+  {
+    "name": "eca",
+    "description": "description",
+    "url": "https://github.com/worldbank/eca-resilience",
+    "image_path": "project_images/eca.png"
+  },
+  {
+    "name": "lrll",
+    "description": "description",
+    "url": "https://github.com/datapartnership/LowResourceLanguageLibraryAPI",
+    "image_path": "project_images/lrll.png"
   }
 ]

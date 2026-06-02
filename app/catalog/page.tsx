@@ -24,7 +24,7 @@ interface Repo {
 }
 
 const repoImageMap: Record<string, string> = Object.fromEntries(
-  (repoImages as { name: string; image_path: string }[]).map((r) => [r.name, r.image_path])
+  (repoImages as { url: string; image_path: string }[]).map((r) => [r.url, r.image_path])
 );
 
 export default function CatalogNewPage() {
@@ -359,7 +359,7 @@ export default function CatalogNewPage() {
                     repo={repo}
                     topic={topic}
                     setTopic={setTopic}
-                    imagePath={repoImageMap[repo.name] ? getAssetPath(`/${repoImageMap[repo.name]}`) : undefined}
+                    imagePath={repo.html_url && repoImageMap[repo.html_url] ? getAssetPath(`/${repoImageMap[repo.html_url]}`) : undefined}
                   />
                 ))}
               </div>

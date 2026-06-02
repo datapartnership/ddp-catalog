@@ -1159,8 +1159,7 @@ footer.ddp-footer {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
   width: 100%;
-  grid-auto-rows: 1fr;
-  align-items: stretch;
+  align-items: start;
 }
 
 .catalog-controls-grid {

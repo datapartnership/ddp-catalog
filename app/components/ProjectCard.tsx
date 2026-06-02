@@ -30,13 +30,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ repo, topic, setTopic, imageP
 
 
   return (
-  <div className="site-card" tabIndex={0} role="button" aria-label={`Open ${repo.name} on GitHub`} style={{ width: '100%', minHeight: 320, maxHeight: 480 }}>
+  <div className="site-card" tabIndex={0} role="button" aria-label={`Open ${repo.name} on GitHub`} style={{ width: '100%', minHeight: 320 }}>
       {imagePath && (
-        <div style={{ width: '100%', height: 140, overflow: 'hidden', borderRadius: '8px 8px 0 0', marginBottom: '0.75rem', flexShrink: 0 }}>
+        <div style={{ width: '100%', borderRadius: '8px 8px 0 0', marginBottom: '0.75rem', flexShrink: 0 }}>
           <img
             src={imagePath}
             alt={`${repo.name} preview`}
-            style={{ width: '100%', height: '100%', objectFit: 'fill', display: 'block' }}
+            style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '8px 8px 0 0' }}
           />
         </div>
       )}

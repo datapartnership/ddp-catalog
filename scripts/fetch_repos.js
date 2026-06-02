@@ -12,10 +12,13 @@ async function fetchReposFromOrg(orgName) {
   console.log(`Fetching repositories from ${orgName}...`);
   
   while (hasMore) {
+    const token = orgName === 'worldbank'
+      ? process.env.WORLDBANK_PAT_SECRET
+      : process.env.GITHUB_TOKEN;
     const res = await fetch(`https://api.github.com/orgs/${orgName}/repos?per_page=100&page=${page}`, {
       headers: {
         Accept: "application/vnd.github.mercy-preview+json",
-        ...(process.env.GITHUB_TOKEN && { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` })
+        ...(token && { Authorization: `Bearer ${token}` })
       }
     });
     if (!res.ok) {

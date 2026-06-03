@@ -120,7 +120,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -242,7 +242,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -362,7 +362,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -492,7 +492,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -612,7 +612,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -732,7 +732,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -846,7 +846,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -972,7 +972,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -1086,7 +1086,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -1215,7 +1215,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -1340,7 +1340,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -1460,7 +1460,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -1589,7 +1589,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -1717,7 +1717,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -1838,7 +1838,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -1958,7 +1958,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -2087,7 +2087,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -2217,7 +2217,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -2344,7 +2344,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -2471,7 +2471,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -2595,7 +2595,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -2713,7 +2713,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -2835,7 +2835,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -2962,7 +2962,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -3082,7 +3082,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -3202,7 +3202,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -3332,7 +3332,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -3460,7 +3460,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -3580,7 +3580,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -3709,7 +3709,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -3829,7 +3829,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -3949,7 +3949,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -4073,7 +4073,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -4201,7 +4201,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -4331,7 +4331,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -4451,7 +4451,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -4579,7 +4579,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -4699,7 +4699,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -4827,7 +4827,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -4953,7 +4953,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -5080,7 +5080,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -5200,7 +5200,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -5329,7 +5329,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -5449,7 +5449,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -5575,7 +5575,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -5689,7 +5689,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -5820,7 +5820,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -5947,7 +5947,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -6074,7 +6074,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -6201,7 +6201,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -6330,7 +6330,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -6458,7 +6458,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -6589,7 +6589,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -6718,7 +6718,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -6847,7 +6847,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -6978,7 +6978,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -7092,7 +7092,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -7218,7 +7218,7 @@
       "maintain": false,
       "push": false,
       "triage": false,
-      "pull": true
+      "pull": false
     },
     "custom_properties": {
       "catalog": "true"
@@ -7226,11 +7226,11 @@
     "catalogAddedDate": "2026-04-07T19:55:43.574Z"
   },
   {
-    "id": 707308540,
-    "node_id": "R_kgDOKiir_A",
-    "name": "gaza-israel-conflict-impact-analysis",
-    "full_name": "worldbank/gaza-israel-conflict-impact-analysis",
-    "private": true,
+    "id": 710225696,
+    "node_id": "R_kgDOKlUvIA",
+    "name": "blackmarblepy",
+    "full_name": "worldbank/blackmarblepy",
+    "private": false,
     "owner": {
       "login": "worldbank",
       "id": 6454132,
@@ -7252,57 +7252,57 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "html_url": "https://github.com/worldbank/gaza-israel-conflict-impact-analysis",
-    "description": "Gaza-Israel 2023 Conflict Impact Analysis",
+    "html_url": "https://github.com/worldbank/blackmarblepy",
+    "description": "Georeferenced Rasters and Statistics of Nightlights from NASA Black Marble",
     "fork": false,
-    "url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis",
-    "forks_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/forks",
-    "keys_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/teams",
-    "hooks_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/hooks",
-    "issue_events_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/events",
-    "assignees_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/tags",
-    "blobs_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/languages",
-    "stargazers_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/stargazers",
-    "contributors_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/contributors",
-    "subscribers_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/subscribers",
-    "subscription_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/subscription",
-    "commits_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/issues/comments{/number}",
-    "contents_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/merges",
-    "archive_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/downloads",
-    "issues_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/labels{/name}",
-    "releases_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/releases{/id}",
-    "deployments_url": "https://api.github.com/repos/worldbank/gaza-israel-conflict-impact-analysis/deployments",
-    "created_at": "2023-10-19T16:21:35Z",
-    "updated_at": "2025-09-30T03:02:49Z",
-    "pushed_at": "2025-09-30T03:04:07Z",
-    "git_url": "git://github.com/worldbank/gaza-israel-conflict-impact-analysis.git",
-    "ssh_url": "git@github.com:worldbank/gaza-israel-conflict-impact-analysis.git",
-    "clone_url": "https://github.com/worldbank/gaza-israel-conflict-impact-analysis.git",
-    "svn_url": "https://github.com/worldbank/gaza-israel-conflict-impact-analysis",
-    "homepage": "https://worldbank.github.io/gaza-israel-conflict-impact-analysis/",
-    "size": 171994,
-    "stargazers_count": 1,
-    "watchers_count": 1,
+    "url": "https://api.github.com/repos/worldbank/blackmarblepy",
+    "forks_url": "https://api.github.com/repos/worldbank/blackmarblepy/forks",
+    "keys_url": "https://api.github.com/repos/worldbank/blackmarblepy/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/worldbank/blackmarblepy/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/worldbank/blackmarblepy/teams",
+    "hooks_url": "https://api.github.com/repos/worldbank/blackmarblepy/hooks",
+    "issue_events_url": "https://api.github.com/repos/worldbank/blackmarblepy/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/worldbank/blackmarblepy/events",
+    "assignees_url": "https://api.github.com/repos/worldbank/blackmarblepy/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/worldbank/blackmarblepy/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/worldbank/blackmarblepy/tags",
+    "blobs_url": "https://api.github.com/repos/worldbank/blackmarblepy/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/worldbank/blackmarblepy/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/worldbank/blackmarblepy/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/worldbank/blackmarblepy/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/worldbank/blackmarblepy/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/worldbank/blackmarblepy/languages",
+    "stargazers_url": "https://api.github.com/repos/worldbank/blackmarblepy/stargazers",
+    "contributors_url": "https://api.github.com/repos/worldbank/blackmarblepy/contributors",
+    "subscribers_url": "https://api.github.com/repos/worldbank/blackmarblepy/subscribers",
+    "subscription_url": "https://api.github.com/repos/worldbank/blackmarblepy/subscription",
+    "commits_url": "https://api.github.com/repos/worldbank/blackmarblepy/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/worldbank/blackmarblepy/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/worldbank/blackmarblepy/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/worldbank/blackmarblepy/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/worldbank/blackmarblepy/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/worldbank/blackmarblepy/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/worldbank/blackmarblepy/merges",
+    "archive_url": "https://api.github.com/repos/worldbank/blackmarblepy/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/worldbank/blackmarblepy/downloads",
+    "issues_url": "https://api.github.com/repos/worldbank/blackmarblepy/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/worldbank/blackmarblepy/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/worldbank/blackmarblepy/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/worldbank/blackmarblepy/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/worldbank/blackmarblepy/labels{/name}",
+    "releases_url": "https://api.github.com/repos/worldbank/blackmarblepy/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/worldbank/blackmarblepy/deployments",
+    "created_at": "2023-10-26T09:17:26Z",
+    "updated_at": "2026-05-07T16:51:49Z",
+    "pushed_at": "2026-06-01T18:43:42Z",
+    "git_url": "git://github.com/worldbank/blackmarblepy.git",
+    "ssh_url": "git@github.com:worldbank/blackmarblepy.git",
+    "clone_url": "https://github.com/worldbank/blackmarblepy.git",
+    "svn_url": "https://github.com/worldbank/blackmarblepy",
+    "homepage": "https://worldbank.github.io/blackmarblepy/",
+    "size": 49290,
+    "stargazers_count": 58,
+    "watchers_count": 58,
     "language": "Jupyter Notebook",
     "has_issues": true,
     "has_projects": true,
@@ -7310,11 +7310,11 @@
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": false,
-    "forks_count": 0,
+    "forks_count": 19,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1,
+    "open_issues_count": 19,
     "license": {
       "key": "mpl-2.0",
       "name": "Mozilla Public License 2.0",
@@ -7322,24 +7322,28 @@
       "url": "https://api.github.com/licenses/mpl-2.0",
       "node_id": "MDc6TGljZW5zZTE0"
     },
-    "allow_forking": false,
+    "allow_forking": true,
     "is_template": false,
     "web_commit_signoff_required": false,
     "has_pull_requests": true,
     "pull_request_creation_policy": "all",
     "topics": [
-      "acled-data",
+      "blackmarble",
       "datapartnership",
-      "gaza",
+      "nasa",
       "nasa-data",
+      "nasa-earth-data",
+      "nightlights",
       "nighttime-lights",
-      "palestine",
-      "sentinel-1"
+      "raster-data",
+      "viirs",
+      "worldbank",
+      "zonal-statistics"
     ],
-    "visibility": "internal",
-    "forks": 0,
-    "open_issues": 1,
-    "watchers": 1,
+    "visibility": "public",
+    "forks": 19,
+    "open_issues": 19,
+    "watchers": 58,
     "default_branch": "main",
     "permissions": {
       "admin": false,
@@ -7349,9 +7353,9 @@
       "pull": true
     },
     "custom_properties": {
-      "catalog": "false"
+      "catalog": "true"
     },
-    "catalogAddedDate": "2026-06-02T19:23:52.144Z"
+    "catalogAddedDate": "2026-06-03T00:45:45.448Z"
   },
   {
     "id": 725789169,
@@ -7606,255 +7610,6 @@
       "catalog": "true"
     },
     "catalogAddedDate": "2026-05-05T18:53:01.382Z"
-  },
-  {
-    "id": 853438151,
-    "node_id": "R_kgDOMt5uxw",
-    "name": "bangladesh-crisis-economic-monitoring",
-    "full_name": "worldbank/bangladesh-crisis-economic-monitoring",
-    "private": true,
-    "owner": {
-      "login": "worldbank",
-      "id": 6454132,
-      "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0NTQxMzI=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6454132?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/worldbank",
-      "html_url": "https://github.com/worldbank",
-      "followers_url": "https://api.github.com/users/worldbank/followers",
-      "following_url": "https://api.github.com/users/worldbank/following{/other_user}",
-      "gists_url": "https://api.github.com/users/worldbank/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/worldbank/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/worldbank/subscriptions",
-      "organizations_url": "https://api.github.com/users/worldbank/orgs",
-      "repos_url": "https://api.github.com/users/worldbank/repos",
-      "events_url": "https://api.github.com/users/worldbank/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/worldbank/received_events",
-      "type": "Organization",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "html_url": "https://github.com/worldbank/bangladesh-crisis-economic-monitoring",
-    "description": "The assignment includes an analysis of small and medium-sized urban business activity trends, night time lights analytics, monitoring digital connectivity, analyzing white collar labor market trends, and understanding changing commuting patterns.",
-    "fork": false,
-    "url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring",
-    "forks_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/forks",
-    "keys_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/teams",
-    "hooks_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/hooks",
-    "issue_events_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/events",
-    "assignees_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/tags",
-    "blobs_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/languages",
-    "stargazers_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/stargazers",
-    "contributors_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/contributors",
-    "subscribers_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/subscribers",
-    "subscription_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/subscription",
-    "commits_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/issues/comments{/number}",
-    "contents_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/merges",
-    "archive_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/downloads",
-    "issues_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/labels{/name}",
-    "releases_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/releases{/id}",
-    "deployments_url": "https://api.github.com/repos/worldbank/bangladesh-crisis-economic-monitoring/deployments",
-    "created_at": "2024-09-06T16:51:21Z",
-    "updated_at": "2026-03-20T16:57:14Z",
-    "pushed_at": "2026-03-20T16:57:07Z",
-    "git_url": "git://github.com/worldbank/bangladesh-crisis-economic-monitoring.git",
-    "ssh_url": "git@github.com:worldbank/bangladesh-crisis-economic-monitoring.git",
-    "clone_url": "https://github.com/worldbank/bangladesh-crisis-economic-monitoring.git",
-    "svn_url": "https://github.com/worldbank/bangladesh-crisis-economic-monitoring",
-    "homepage": "https://worldbank.github.io/bangladesh-crisis-economic-monitoring/",
-    "size": 277544,
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "language": "Jupyter Notebook",
-    "has_issues": true,
-    "has_projects": true,
-    "has_downloads": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "has_discussions": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "archived": false,
-    "disabled": false,
-    "open_issues_count": 4,
-    "license": {
-      "key": "mit",
-      "name": "MIT License",
-      "spdx_id": "MIT",
-      "url": "https://api.github.com/licenses/mit",
-      "node_id": "MDc6TGljZW5zZTEz"
-    },
-    "allow_forking": false,
-    "is_template": false,
-    "web_commit_signoff_required": false,
-    "has_pull_requests": true,
-    "pull_request_creation_policy": "all",
-    "topics": [
-      "datapartnership",
-      "github",
-      "labor-markets",
-      "linkedin",
-      "ookla",
-      "south-asia"
-    ],
-    "visibility": "internal",
-    "forks": 0,
-    "open_issues": 4,
-    "watchers": 0,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    },
-    "custom_properties": {
-      "catalog": "true"
-    },
-    "catalogAddedDate": "2026-06-02T19:23:52.144Z"
-  },
-  {
-    "id": 857395542,
-    "node_id": "R_kgDOMxrRVg",
-    "name": "sudan-poverty-monitoring",
-    "full_name": "worldbank/sudan-poverty-monitoring",
-    "private": true,
-    "owner": {
-      "login": "worldbank",
-      "id": 6454132,
-      "node_id": "MDEyOk9yZ2FuaXphdGlvbjY0NTQxMzI=",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6454132?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/worldbank",
-      "html_url": "https://github.com/worldbank",
-      "followers_url": "https://api.github.com/users/worldbank/followers",
-      "following_url": "https://api.github.com/users/worldbank/following{/other_user}",
-      "gists_url": "https://api.github.com/users/worldbank/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/worldbank/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/worldbank/subscriptions",
-      "organizations_url": "https://api.github.com/users/worldbank/orgs",
-      "repos_url": "https://api.github.com/users/worldbank/repos",
-      "events_url": "https://api.github.com/users/worldbank/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/worldbank/received_events",
-      "type": "Organization",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "html_url": "https://github.com/worldbank/sudan-poverty-monitoring",
-    "description": "The assignment covers analytics of crop productivity, conflict mapping, flood mapping, analyzing internet connectivity trends, monitoring nighttime lights, and analyzing urban expansion trends.",
-    "fork": false,
-    "url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring",
-    "forks_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/forks",
-    "keys_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/teams",
-    "hooks_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/hooks",
-    "issue_events_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/events",
-    "assignees_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/tags",
-    "blobs_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/languages",
-    "stargazers_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/stargazers",
-    "contributors_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/contributors",
-    "subscribers_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/subscribers",
-    "subscription_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/subscription",
-    "commits_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/issues/comments{/number}",
-    "contents_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/merges",
-    "archive_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/downloads",
-    "issues_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/labels{/name}",
-    "releases_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/releases{/id}",
-    "deployments_url": "https://api.github.com/repos/worldbank/sudan-poverty-monitoring/deployments",
-    "created_at": "2024-09-14T14:45:39Z",
-    "updated_at": "2026-02-12T16:22:30Z",
-    "pushed_at": "2026-02-12T16:18:28Z",
-    "git_url": "git://github.com/worldbank/sudan-poverty-monitoring.git",
-    "ssh_url": "git@github.com:worldbank/sudan-poverty-monitoring.git",
-    "clone_url": "https://github.com/worldbank/sudan-poverty-monitoring.git",
-    "svn_url": "https://github.com/worldbank/sudan-poverty-monitoring",
-    "homepage": "https://worldbank.github.io/sudan-poverty-monitoring/",
-    "size": 500148,
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "language": "Jupyter Notebook",
-    "has_issues": true,
-    "has_projects": true,
-    "has_downloads": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "has_discussions": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "archived": false,
-    "disabled": false,
-    "open_issues_count": 3,
-    "license": {
-      "key": "mit",
-      "name": "MIT License",
-      "spdx_id": "MIT",
-      "url": "https://api.github.com/licenses/mit",
-      "node_id": "MDc6TGljZW5zZTEz"
-    },
-    "allow_forking": false,
-    "is_template": false,
-    "web_commit_signoff_required": false,
-    "has_pull_requests": true,
-    "pull_request_creation_policy": "all",
-    "topics": [
-      "datapartnership"
-    ],
-    "visibility": "internal",
-    "forks": 0,
-    "open_issues": 3,
-    "watchers": 0,
-    "default_branch": "main",
-    "permissions": {
-      "admin": false,
-      "maintain": false,
-      "push": false,
-      "triage": false,
-      "pull": true
-    },
-    "custom_properties": {
-      "catalog": "true"
-    },
-    "catalogAddedDate": "2026-06-02T19:23:52.144Z"
   },
   {
     "id": 863686456,

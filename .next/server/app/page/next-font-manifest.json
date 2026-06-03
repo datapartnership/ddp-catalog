@@ -1,0 +1,15 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/page": [
+      "static/media/OpenSans_Regular-s.p.c0e06105.ttf",
+      "static/media/OpenSans_Italic-s.p.39bca1f5.ttf",
+      "static/media/OpenSans_SemiBold-s.p.5fe937cf.ttf",
+      "static/media/OpenSans_Bold-s.p.a810370a.ttf",
+      "static/media/AsapCondensed_Regular-s.p.2de511ca.ttf",
+      "static/media/AsapCondensed_Medium-s.p.7c23edad.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

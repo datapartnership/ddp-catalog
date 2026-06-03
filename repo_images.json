@@ -105,7 +105,7 @@
     "name": "road-resilience-in-uttarakhand",
     "description": "Predicting Precipitation-Induced Road Closures in Uttarakhand",
     "url": "https://github.com/datapartnership/road-resilience-in-uttarakhand",
-    "image_path": "generated_images/road-resilience-in-uttarakhand.png"
+    "image_path": "project_images/roadresilience.png"
   },
   {
     "name": "awesome-satellite-imagery-datasets",
@@ -333,7 +333,7 @@
     "name": "yemen-economic-monitor",
     "description": "Alternative Data Analytics to Support Monitoring the State of the Yemen Economy",
     "url": "https://github.com/datapartnership/yemen-economic-monitor",
-    "image_path": "generated_images/yemen-economic-monitor.png"
+    "image_path": "project_images/yemenem.png"
   },
   {
     "name": "morocco-economic-monitor",
@@ -381,7 +381,7 @@
     "name": "egypt-economic-monitor",
     "description": "This project uses alternative data to analyze economic activity, business dynamics, and spatial inequality in Egypt, including gender inequality. It develops indicators such as nighttime lights, business activity measures, and spatial datasets, alongside a Gender Equality Survey, to support economic analysis for the Egypt Country Memorandum",
     "url": "https://github.com/datapartnership/egypt-economic-monitor",
-    "image_path": "generated_images/egypt-economic-monitor.png"
+    "image_path": "project_images/egyptem.png"
   },
   {
     "name": "red-sea-monitoring",
@@ -423,7 +423,7 @@
     "name": "urban-resilience-after-climate-shocks",
     "description": "Monitoring Near-Time Changes in Urban Space Usage after Climate Shocks ECA Urban Resilience",
     "url": "https://github.com/datapartnership/urban-resilience-after-climate-shocks",
-    "image_path": "generated_images/urban-resilience-after-climate-shocks.png"
+    "image_path": "project_images/urbanresilience.png"
   },
   {
     "name": "HREA",
@@ -465,7 +465,7 @@
     "name": "conflict-nlp",
     "description": "Using NLP techniques (topic Modelling, LLMs) to analyze conflict data from ACLED",
     "url": "https://github.com/datapartnership/conflict-nlp",
-    "image_path": "generated_images/conflict-nlp.png"
+    "image_path": "project_images/conflictnlp.png"
   },
   {
     "name": "evi_runner",
@@ -519,7 +519,7 @@
     "name": "open-router-analysis",
     "description": "OpenRouter analysis exploring country-level trends in AI model usage over time, with monthly indices and visualizations.",
     "url": "https://github.com/datapartnership/open-router-analysis",
-    "image_path": "generated_images/open-router-analysis.png"
+    "image_path": "project_images/openrouter.png"
   },
   {
     "name": "ddp-catalog",

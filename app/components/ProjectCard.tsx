@@ -30,7 +30,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ repo, topic, setTopic, imageP
 
 
   return (
-  <div className="site-card" tabIndex={0} role="button" aria-label={`Open ${repo.name} on GitHub`} style={{ width: '100%', minHeight: 320 }}>
+  <div className="site-card" tabIndex={0} role="button" aria-label={`Open ${repo.name} on GitHub`} style={{ width: '100%' }}>
       {imagePath && (
         <div style={{ width: '100%', borderRadius: '8px 8px 0 0', marginBottom: '0.75rem', flexShrink: 0 }}>
           <img
